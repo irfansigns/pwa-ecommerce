@@ -19,8 +19,14 @@ webalizer/
 
 ecommerce/server/storage/framework/
 ecommerce/server/storage/logs/
-ecommerce/server/public/
 ecommerce/server/bootstrap/cashe/
+
+ecommerce/server/public/*
+!ecommerce/server/public/.htaccess
+!ecommerce/server/public/favicon.ico
+!ecommerce/server/public/index.php
+!ecommerce/server/public/robot.txt
+
 
 
 
