@@ -17,3 +17,10 @@ webalizer/
 /composer.lock
 /project_store
 
+ecommerce/server/storage/framework/
+ecommerce/server/storage/logs/
+ecommerce/server/public/
+ecommerce/server/bootstrap/
+
+
+
