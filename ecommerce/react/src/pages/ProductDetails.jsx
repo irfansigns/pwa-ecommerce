@@ -38,11 +38,6 @@ const ProductDetails = (props) => {
     }, [params]);
 
     
-    
-
-   
-    
-
 
     if(itemData.ProductData){
       return(
@@ -85,7 +80,7 @@ const ProductDetails = (props) => {
 
                                     <div className="product-thumb product-horizontal-thumb mt-3">
                                         <div id="gallery" classname="product-thumb-horizontal">
-                                            <DetailSlider detailImg={itemData.ProductData.imageDetail} handleImageClick={handleImageClick} />
+                                            <DetailSlider detailImg={itemData.ProductData.imageDetail} handleImageClick={handleImageClick} images={itemData.ProductData.productDetail.i_path} category={itemData.ProductData.category} />
                                             {/* Passed the handler to DetailSlider.jsx so that slides can use it when called  */}
                                             
                                         </div>

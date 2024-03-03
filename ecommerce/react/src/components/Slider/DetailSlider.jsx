@@ -8,11 +8,13 @@ import 'slick-carousel/slick/slick-theme.css';
 // import '../../assets/css/cascade.css'
 
 
-const CategorySlider = ({ handleImageClick, detailImg }) => { 
+const DetailSlider = ({ handleImageClick, detailImg , images, category }) => { 
 
     const detailImages = detailImg.map(igKey=>{
         return AppURL.Images+igKey;       
     });
+
+    console.log(AppURL.Images+images+" is the image link");
 
     const settings = {
         infinite: true,
@@ -31,8 +33,13 @@ const CategorySlider = ({ handleImageClick, detailImg }) => {
             {/* <a onClick={() => handleImageClick(AppURL.Images+'/1009.jpg')} data-image={AppURL.Images+'/1009.jpg'} data-zoom-image={AppURL.Images+'/1009.jpg'} className="slick-slide slick-cloned active">
                 <img className="blur-up lazyload" data-src={AppURL.Images+'/1009.jpg'} src={AppURL.Images+'/1009.jpg'} alt="product" width="625" height="808" />
             </a> */}
+            {/* <a onClick={() => handleImageClick(AppURL.Images+igKey)}  className="slick-slide slick-cloned active">
+                <img className="blur-up lazyload" data-src={AppURL.Images+igKey} src={AppURL.Images+igKey} alt="product" width="625" height="808" />
+            </a> */}
 
             {
+                
+                
                 detailImg.map((igKey,i)=>{
                     return(
                         <a onClick={() => handleImageClick(AppURL.Images+igKey)}  className="slick-slide slick-cloned active">
@@ -43,20 +50,10 @@ const CategorySlider = ({ handleImageClick, detailImg }) => {
 
             }
 
-{
-                detailImg.map((igKey,i)=>{
-                    return(
-                        <a onClick={() => handleImageClick(AppURL.Images+igKey)}  className="slick-slide slick-cloned active">
-                            <img className="blur-up lazyload" data-src={AppURL.Images+igKey} src={AppURL.Images+igKey} alt="product" width="625" height="808" />
-                        </a>
-                    )
-                })
 
-            }
-           
         </Slider>
        
     )
 }
 
-export default CategorySlider
+export default DetailSlider
