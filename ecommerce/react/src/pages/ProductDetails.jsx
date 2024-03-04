@@ -13,7 +13,7 @@ const ProductDetails = (props) => {
         categoryId:""
     });
 
-    const [zoomImageUrl, setZoomImageUrl] = useState(AppURL.Images+'/hos/9.jpg');
+    const [zoomImageUrl, setZoomImageUrl] = useState();
     // Function to handle image click
     const handleImageClick = (newImageUrl) => {
         setZoomImageUrl(newImageUrl); // Update the zoomed image URL
@@ -26,8 +26,8 @@ const ProductDetails = (props) => {
             axios.get(AppURL.ProductDetails(params.code)).then(response=>{
                 // console.log(response.data);
                 
-                setItemData(values => ({...values,ProductData: response.data,categoryId:response.data.catId}));
-                console.dir(itemData.ProductData);
+                setItemData(values => ({...values,ProductData: response.data,categoryId:response.data.catId}));            
+                
             }).catch(error=>{
                 
             });
@@ -36,6 +36,14 @@ const ProductDetails = (props) => {
         fetchProducts();
     
     }, [params]);
+
+    useEffect(() => {
+        if (itemData.ProductData && itemData.ProductData.productDetail && itemData.ProductData.productDetail.i_path) {
+            const imageUrl = AppURL.Images + '/' + itemData.ProductData.productDetail.i_path;
+            // alert('I am going to set this ' + imageUrl);
+            handleImageClick(imageUrl);
+        }
+    }, [itemData]); // This effect runs when itemData changes
 
     
 

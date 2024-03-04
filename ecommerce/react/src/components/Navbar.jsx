@@ -234,54 +234,9 @@ if(!categories){
                                     </ul>
                                 </div>
                             </li>
-                            <li className="lvl1 parent dropdown"><a href="#">Pages <i className="icon anm anm-angle-down-l"></i></a>
-                                <ul className="dropdown">
-                                    <li><a href="aboutus-style1.html" className="site-nav">About Us <i className="icon anm anm-angle-right-l"></i></a>
-                                        <ul className="dropdown">
-                                            <li><a href="aboutus-style1.html" className="site-nav">About Us Style1</a></li>
-                                            <li><a href="aboutus-style2.html" className="site-nav">About Us Style2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact-style1.html" className="site-nav">Contact Us <i className="icon anm anm-angle-right-l"></i></a>
-                                        <ul className="dropdown">
-                                            <li><a href="contact-style1.html" className="site-nav">Contact Us Style1</a></li>
-                                            <li><a href="contact-style2.html" className="site-nav">Contact Us Style2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="my-account.html" className="site-nav">My Account <i className="icon anm anm-angle-right-l"></i></a>
-                                        <ul className="dropdown">
-                                            <li><a href="my-account.html" className="site-nav">My Account</a></li>
-                                            <li><a href="login.html" className="site-nav">Login</a></li>
-                                            <li><a href="register.html" className="site-nav">Register</a></li>
-                                            <li><a href="forgot-password.html" className="site-nav">Forgot Password</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="lookbook-grid.html" className="site-nav">Lookbook <i className="icon anm anm-angle-right-l"></i></a>
-                                        <ul className="dropdown">
-                                            <li><a href="lookbook-grid.html" className="site-nav">Lookbook Grid</a></li>
-                                            <li><a href="lookbook-masonry.html" className="site-nav">Lookbook Masonry</a></li>
-                                            <li><a href="lookbook-shop.html" className="site-nav">Lookbook Shop</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="portfolio-page.html" className="site-nav">Portfolio Page</a></li>
-                                    <li><a href="faqs-page.html" className="site-nav">FAQs Page</a></li>
-                                    <li><a href="brands-page.html" className="site-nav">Brands Page</a></li>
-                                    <li><a href="cms-page.html" className="site-nav">CMS Page</a></li>
-                                    <li><a href="elements-icons.html" className="site-nav">Icons</a></li>
-                                    <li><a href="error-404.html" className="site-nav">Error 404</a></li>
-                                    <li><a href="coming-soon.html" className="site-nav">Coming soon <span className="lbl nm_label2">New</span></a></li>
-                                </ul>
-                            </li>
-                            <li className="lvl1 parent dropdown"><a href="#">Blog <i className="icon anm anm-angle-down-l"></i></a>
-                                <ul className="dropdown">
-                                    <li><a href="blog-grid.html" className="site-nav">Grid View</a></li>
-                                    <li><a href="blog-list.html" className="site-nav">List View</a></li>
-                                    <li><a href="blog-grid-sidebar.html" className="site-nav">Left Sidebar</a></li>
-                                    <li><a href="blog-list-sidebar.html" className="site-nav">Right Sidebar</a></li>
-                                    <li><a href="blog-masonry.html" className="site-nav">Masonry Grid</a></li>
-                                    <li><a href="blog-details.html" className="site-nav">Blog Details</a></li>
-                                </ul>
-                            </li>
+                            <li className="lvl1 parent dropdown"><Link to="/contact">Contact</Link></li>
+                            <li className="lvl1 parent dropdown"><Link to="/about">About</Link></li>
+                           
                         </ul>
                     </nav>
                 </div>

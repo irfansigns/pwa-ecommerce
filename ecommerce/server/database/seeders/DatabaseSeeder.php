@@ -32,7 +32,7 @@ class DatabaseSeeder extends Seeder
 
         // Storage::disk('local')->put($product.'.txt', 'Product Description');
         
-        for ($i = 1; $i <= 80; $i++) {
+        for ($i = 1; $i <= 250; $i++) {
             Storage::disk('local')->put($i.'.txt', 'Product Description for this product');
         }
 
@@ -417,7 +417,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/derma/1.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','5','7','8','1','3']
+                        'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Aloe Vera Gel',
@@ -426,7 +426,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/derma/2.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','5','7','8','1','3']
+                        'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Massage Cream',
@@ -435,7 +435,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/derma/3.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','5','7','8','1','3']
+                        'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Derma Gel',
@@ -444,7 +444,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/derma/4.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','5','7','8','1','3']
+                        'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Derma Scrub',
@@ -453,7 +453,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/derma/5.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','5','7','8','1','3']
+                        'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Skin Cleanser',
@@ -462,7 +462,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/derma/6.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','5','7','8','1','3']
+                        'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Derma Skin Care',
@@ -471,7 +471,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/derma/7.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','5','7','8','1','3']
+                        'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Black Mask',
@@ -480,7 +480,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/derma/8.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','5','7','8','1','3']
+                        'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Facial Wash Scrub',
@@ -489,7 +489,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/derma/9.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','5','7','8','1','3']
+                        'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Cracked Heal Cream',
@@ -498,7 +498,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/derma/10.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','5','7','8','1','3']
+                        'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Skin Bleach Cream',
@@ -507,7 +507,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/derma/11.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','5','7','8','1','3']
+                        'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Bleach Mask',
@@ -516,7 +516,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/derma/12.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','5','7','8','1','3']
+                        'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Brightening Facial Mask',
@@ -525,7 +525,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/derma/13.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','5','7','8','1','3']
+                        'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Wash & Scrub Mask',
@@ -534,7 +534,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/derma/14.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','5','7','8','1','3']
+                        'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Foaming Facial Wash',
@@ -543,7 +543,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/derma/15.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','5','7','8','1','3']
+                        'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Brightening Deep Cleanser',
@@ -552,7 +552,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/derma/16.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','5','7','8','1','3']
+                        'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Pedi Scrub',
@@ -561,7 +561,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/derma/17.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','5','7','8','1','3']
+                        'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Active Bright Face Wash',
@@ -570,7 +570,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/derma/18.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','5','7','8','1','3']
+                        'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Sun Block Cream',
@@ -579,7 +579,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/derma/19.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','5','7','8','1','3']
+                        'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                 ],
             ],
@@ -595,7 +595,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/hos/1.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
 
                     [
@@ -605,7 +605,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/hos/2.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Casual Jeans',
@@ -614,7 +614,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/hos/3.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Ladies Long Coat',
@@ -623,7 +623,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/hos/4.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Fleece Zipper',
@@ -632,7 +632,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/hos/6.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Ladies Frill Shirt',
@@ -641,7 +641,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/hos/7.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Long Fleece Pullover',
@@ -650,7 +650,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/hos/8.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Fur Zipper',
@@ -659,7 +659,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/hos/9.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Self Design Coat',
@@ -668,7 +668,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/hos/10.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ]
                 ],
             ],
@@ -684,7 +684,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/jewel/1.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Earings',
@@ -693,7 +693,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/jewel/2.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Braclet',
@@ -702,7 +702,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/jewel/3.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Platinum Locket',
@@ -711,7 +711,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/jewel/4.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Rajhastani Necklace',
@@ -720,7 +720,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/jewel/5.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Pearls Braclets',
@@ -729,7 +729,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/jewel/6.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Platinum Ring',
@@ -738,7 +738,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/jewel/7.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Stone Braclets',
@@ -747,7 +747,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/jewel/9.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Baby Tops',
@@ -756,7 +756,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/jewel/12.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Pearls Bi Set',
@@ -765,7 +765,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/jewel/11.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Indian Necklace',
@@ -774,7 +774,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/jewel/14.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Heavy Necklace',
@@ -783,7 +783,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/jewel/13.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Necklace Earing Set',
@@ -792,7 +792,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/jewel/15.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Gold Ring',
@@ -801,7 +801,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/jewel/16.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Pearl Ring',
@@ -810,7 +810,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/jewel/17.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Stone Ring',
@@ -819,7 +819,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/jewel/18.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ]
                 ],
             ],
@@ -835,7 +835,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/pants/1.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
 
                     [
@@ -845,7 +845,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/pants/2.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Pant Style 3',
@@ -854,7 +854,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/pants/3.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Pant Style 4',
@@ -863,7 +863,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/pants/4.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Pant Style 5',
@@ -872,7 +872,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/pants/5.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Pant Style 6',
@@ -881,7 +881,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/pants/6.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Pant Style 7',
@@ -890,7 +890,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/pants/7.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Pant Style 8',
@@ -899,7 +899,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/pants/8.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Pant Style 9',
@@ -908,7 +908,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/pants/9.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
 
                     [
@@ -918,7 +918,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/pants/10.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Pant Style 11',
@@ -927,7 +927,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/pants/12.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Pant Style 13',
@@ -936,7 +936,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/pants/13.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Pant Style 14',
@@ -945,7 +945,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/pants/14.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Pant Style 15',
@@ -954,7 +954,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/pants/15.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                    
                 ],
@@ -971,7 +971,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/ladiesShirts/1.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Shirt Style 2',
@@ -980,7 +980,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/ladiesShirts/2.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Shirt Style 3',
@@ -989,7 +989,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/ladiesShirts/3.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Shirt Style 4',
@@ -998,7 +998,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/ladiesShirts/4.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Shirt Style 5',
@@ -1007,7 +1007,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/ladiesShirts/5.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Shirt Style 6',
@@ -1016,7 +1016,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/ladiesShirts/6.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Shirt Style 7',
@@ -1025,7 +1025,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/ladiesShirts/7.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Shirt Style 8',
@@ -1034,7 +1034,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/ladiesShirts/8.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                 ],
             ],
@@ -1050,7 +1050,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/hos/1.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
 
                     [
@@ -1060,7 +1060,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/hos/2.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Casual Jeans',
@@ -1069,7 +1069,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/hos/3.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Ladies Long Coat',
@@ -1078,7 +1078,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/hos/4.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Fleece Zipper',
@@ -1087,7 +1087,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/hos/6.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Ladies Frill Shirt',
@@ -1096,7 +1096,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/hos/7.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Long Fleece Pullover',
@@ -1105,7 +1105,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/hos/8.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Fur Zipper',
@@ -1114,7 +1114,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/hos/9.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
                     [
                         'pname' => 'Self Design Coat',
@@ -1123,7 +1123,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/hos/10.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['2','4','7','8','1','3']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ]
                 ],
             ],
@@ -1139,7 +1139,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/undergarments/1.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['underFeatured1.jpg','underFeatured2.jpg','underFeatured3.jpg','underFeatured4.jpg','underFeatured5.jpg','underFeatured6.jpg']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
 
                     [
@@ -1149,7 +1149,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/undergarments/2.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['underFeatured1.jpg','underFeatured2.jpg','underFeatured3.jpg','underFeatured4.jpg','underFeatured5.jpg','underFeatured6.jpg']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
 
                     [
@@ -1159,7 +1159,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/undergarments/3.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['underFeatured1.jpg','underFeatured2.jpg','underFeatured3.jpg','underFeatured4.jpg','underFeatured5.jpg','underFeatured6.jpg']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
 
                     [
@@ -1169,7 +1169,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/undergarments/4.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['underFeatured1.jpg','underFeatured2.jpg','underFeatured3.jpg','underFeatured4.jpg','underFeatured5.jpg','underFeatured6.jpg']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
 
                     [
@@ -1179,7 +1179,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/undergarments/5.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['underFeatured1.jpg','underFeatured2.jpg','underFeatured3.jpg','underFeatured4.jpg','underFeatured5.jpg','underFeatured6.jpg']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
 
                     [
@@ -1189,7 +1189,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/undergarments/6.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['underFeatured1.jpg','underFeatured2.jpg','underFeatured3.jpg','underFeatured4.jpg','underFeatured5.jpg','underFeatured6.jpg']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
 
                     [
@@ -1199,7 +1199,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/undergarments/7.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['underFeatured1.jpg','underFeatured2.jpg','underFeatured3.jpg','underFeatured4.jpg','underFeatured5.jpg','underFeatured6.jpg']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
 
                     [
@@ -1209,7 +1209,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/undergarments/8.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['underFeatured1.jpg','underFeatured2.jpg','underFeatured3.jpg','underFeatured4.jpg','underFeatured5.jpg','underFeatured6.jpg']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
 
                     [
@@ -1219,7 +1219,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/undergarments/9.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['underFeatured1.jpg','underFeatured2.jpg','underFeatured3.jpg','underFeatured4.jpg','underFeatured5.jpg','underFeatured6.jpg']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
 
                     [
@@ -1229,7 +1229,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/undergarments/9.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['underFeatured1.jpg','underFeatured2.jpg','underFeatured3.jpg','underFeatured4.jpg','underFeatured5.jpg','underFeatured6.jpg']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
 
                     [
@@ -1239,7 +1239,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/undergarments/10.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['underFeatured1.jpg','underFeatured2.jpg','underFeatured3.jpg','underFeatured4.jpg','underFeatured5.jpg','underFeatured6.jpg']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
 
                     [
@@ -1249,7 +1249,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/undergarments/11.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['underFeatured1.jpg','underFeatured2.jpg','underFeatured3.jpg','underFeatured4.jpg','underFeatured5.jpg','underFeatured6.jpg']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
 
                     [
@@ -1259,7 +1259,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/undergarments/12.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['underFeatured1.jpg','underFeatured2.jpg','underFeatured3.jpg','underFeatured4.jpg','underFeatured5.jpg','underFeatured6.jpg']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
 
                     [
@@ -1269,7 +1269,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/undergarments/13.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['underFeatured1.jpg','underFeatured2.jpg','underFeatured3.jpg','underFeatured4.jpg','underFeatured5.jpg','underFeatured6.jpg']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
 
                     [
@@ -1279,7 +1279,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/undergarments/14.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['underFeatured1.jpg','underFeatured2.jpg','underFeatured3.jpg','underFeatured4.jpg','underFeatured5.jpg','underFeatured6.jpg']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
 
                     [
@@ -1289,7 +1289,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/undergarments/15.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['underFeatured1.jpg','underFeatured2.jpg','underFeatured3.jpg','underFeatured4.jpg','underFeatured5.jpg','underFeatured6.jpg']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
 
                     [
@@ -1299,7 +1299,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/undergarments/16.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['underFeatured1.jpg','underFeatured2.jpg','underFeatured3.jpg','underFeatured4.jpg','underFeatured5.jpg','underFeatured6.jpg']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
 
                     [
@@ -1309,7 +1309,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/undergarments/17.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['underFeatured1.jpg','underFeatured2.jpg','underFeatured3.jpg','underFeatured4.jpg','underFeatured5.jpg','underFeatured6.jpg']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
 
                     [
@@ -1319,7 +1319,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/undergarments/18.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['underFeatured1.jpg','underFeatured2.jpg','underFeatured3.jpg','underFeatured4.jpg','underFeatured5.jpg','underFeatured6.jpg']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
 
                     [
@@ -1329,7 +1329,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/undergarments/19.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['underFeatured1.jpg','underFeatured2.jpg','underFeatured3.jpg','underFeatured4.jpg','underFeatured5.jpg','underFeatured6.jpg']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
 
                     [
@@ -1339,7 +1339,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/undergarments/20.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['underFeatured1.jpg','underFeatured2.jpg','underFeatured3.jpg','underFeatured4.jpg','underFeatured5.jpg','underFeatured6.jpg']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
 
                     [
@@ -1349,7 +1349,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/undergarments/21.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['underFeatured1.jpg','underFeatured2.jpg','underFeatured3.jpg','underFeatured4.jpg','underFeatured5.jpg','underFeatured6.jpg']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
 
                     [
@@ -1359,7 +1359,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/undergarments/22.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['underFeatured1.jpg','underFeatured2.jpg','underFeatured3.jpg','underFeatured4.jpg','underFeatured5.jpg','underFeatured6.jpg']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
 
                     [
@@ -1369,7 +1369,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/undergarments/23.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['underFeatured1.jpg','underFeatured2.jpg','underFeatured3.jpg','underFeatured4.jpg','underFeatured5.jpg','underFeatured6.jpg']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
 
                     [
@@ -1379,7 +1379,7 @@ class DatabaseSeeder extends Seeder
                         'i_path' => '/undergarments/24.jpg',
                         'featured' => 'false',
                         'description_id' => '',
-                        'images' => ['underFeatured1.jpg','underFeatured2.jpg','underFeatured3.jpg','underFeatured4.jpg','underFeatured5.jpg','underFeatured6.jpg']
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ]
                     
                 ],
