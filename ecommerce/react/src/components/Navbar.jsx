@@ -88,8 +88,6 @@ if(!categories){
     });
 
 
-    
-
     return(
         <>
         <header className="header d-flex align-items-center header-10 header-fixed mih-75 header-fixed">
@@ -124,12 +122,12 @@ if(!categories){
                                         </li>
                                         <li className="lvl-1 col-md-3 col-lg-3 w-34 banner-col">
                                             <div className="banner-wrap">
-                                                <a href="shop-left-sidebar.html"><img className="blur-up lazyload" data-src="assets/images/megamenu/banner-menu.jpg" src="assets/images/megamenu/banner-menu.jpg" alt="banner" width="600" height="440" /></a>
+                                                <Link to="shop/11"><img className="blur-up lazyload" src={AppURL.Images+'cover1.jpeg'} alt="banner" width="600" height="440" /></Link>
                                                 <div className="banner-content">
-                                                    <h4>Hot deals</h4>
-                                                    <h3>Don't miss <br />Trending</h3>
-                                                    <div className="banner-save text-primary">Save to 50%</div>
-                                                    <div className="banner-btn"><a href="shop-left-sidebar.html" className="btn btn-primary">Shop now</a></div>
+                                                    {/* <h4>Hot deals</h4> */}
+                                                    {/* <h3>Don't miss <br />Trending</h3> */}
+                                                    {/* <div className="banner-save text-primary">Save to 50%</div> */}
+                                                    {/* <div className="banner-btn"><a href="shop-left-sidebar.html" className="btn btn-primary">Shop now</a></div> */}
                                                 </div>
                                                 <div className="banner-discount">
                                                     <h3><span>50%</span> Off</h3>

@@ -35,10 +35,7 @@ class HomePage extends Component {
                       <div className="badge text-white badge-"></div><Link className="d-block" to={product.detail_url}><img className="img-fluid w-100" src={AppURL.Images+product.i_path} alt="..." /></Link>
                       <div className="product-overlay">
                         <ul className="mb-0 list-inline">
-                          {/* <li className="list-inline-item m-0 p-0"><Link className="btn btn-sm btn-outline-dark" href={product.detail_url}><i className="far fa-heart"></i></Link></li> */}
-                          {/* <li className="list-inline-item m-0 p-0"><a className="btn btn-sm btn-dark" href="cart.html">{product.quantity}</a></li> */}
-                          {/* <li className="list-inline-item mr-0"><button className="btn btn-sm btn-outline-dark" onClick={()=>{const id = product.id; addToCart(id);}}  ><i className="fas fa-shopping-cart"><span className="ml-1">Add to Cart</span></i></button></li> */}
-                          <li className="list-inline-item mr-0"><button className="btn btn-sm btn-outline-dark"><i className="fas fa-shopping-cart"><span className="ml-1">Add to Cart</span></i></button></li>
+                           <li className="list-inline-item mr-0"><button className="btn btn-sm btn-outline-dark"><i className="fas fa-shopping-cart"><span className="ml-1">Add to Cart</span></i></button></li>
                         </ul>
                       </div>
                     </div>

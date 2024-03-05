@@ -48,54 +48,74 @@ const CategorySlider = () => {
         <Slider {...settings}>
         <div className="category-item irfCt zoomscal-hov" style={categoryItemStyle}>
             <a href="shop-left-sidebar.html" className="category-link clr-none">
-                <div className="zoom-scal zoom-scal-nopb"><img className="blur-up lazyload" data-src={AppURL.Images+'/1011.jpg'} src={AppURL.Images+'/1011.jpg'} alt="collection" title="" width="300" height="300" /></div>
+                <div className="zoom-scal zoom-scal-nopb"><img className="blur-up lazyload" src={AppURL.Images+'/pcat/pcat1.jpg'}  alt="collection" title="" width="300" height="300" /></div>
                 <div className="details mt-3 text-center irfDt">
-                    <h4 className="category-title mb-0">Agriculture Tools</h4>
+                    <h4 className="category-title mb-0">Beauty</h4>
                     <p className="counts">20 Products</p>
                 </div>
             </a>
         </div>
         <div className="category-item irfCt zoomscal-hov" style={categoryItemStyle}>
             <a href="shop-left-sidebar.html" className="category-link clr-none">
-                <div className="zoom-scal zoom-scal-nopb"><img className="blur-up lazyload" data-src={AppURL.Images+'/1009.jpg'} src={AppURL.Images+'/1011.jpg'} alt="collection" title="" width="300" height="300" /></div>
+                <div className="zoom-scal zoom-scal-nopb"><img className="blur-up lazyload" src={AppURL.Images+'/pcat/pcat2.jpg'} alt="collection" title="" width="300" height="300" /></div>
                 <div className="details mt-3 text-center irfDt">
-                    <h4 className="category-title mb-0">Agriculture Tools</h4>
+                    <h4 className="category-title mb-0">Cosmetics</h4>
                     <p className="counts">20 Products</p>
                 </div>
             </a>
         </div>
         <div className="category-item irfCt zoomscal-hov" style={categoryItemStyle}>
             <a href="shop-left-sidebar.html" className="category-link clr-none">
-                <div className="zoom-scal zoom-scal-nopb"><img className="blur-up lazyload" data-src={AppURL.Images+'/1010.jpg'} src={AppURL.Images+'/1011.jpg'} alt="collection" title="" width="300" height="300" /></div>
+                <div className="zoom-scal zoom-scal-nopb"><img className="blur-up lazyload" src={AppURL.Images+'/pcat/pcat3.jpg'} alt="collection" title="" width="300" height="300" /></div>
                 <div className="details mt-3 text-center irfDt">
-                    <h4 className="category-title mb-0">Agriculture Tools</h4>
+                    <h4 className="category-title mb-0">Jewellery</h4>
+                    <p className="counts">20 Products</p>
+                </div>
+            </a>
+        </div>
+        
+        <div className="category-item irfCt zoomscal-hov" style={categoryItemStyle}>
+            <a href="shop-left-sidebar.html" className="category-link clr-none">
+                <div className="zoom-scal zoom-scal-nopb"><img className="blur-up lazyload" src={AppURL.Images+'/pcat/pcat5.jpg'} alt="collection" title="" width="300" height="300" /></div>
+                <div className="details mt-3 text-center irfDt">
+                    <h4 className="category-title mb-0">Gadgetry</h4>
                     <p className="counts">20 Products</p>
                 </div>
             </a>
         </div>
         <div className="category-item irfCt zoomscal-hov" style={categoryItemStyle}>
             <a href="shop-left-sidebar.html" className="category-link clr-none">
-                <div className="zoom-scal zoom-scal-nopb"><img className="blur-up lazyload" data-src={AppURL.Images+'/1012.jpg'} src={AppURL.Images+'/1011.jpg'} alt="collection" title="" width="300" height="300" /></div>
+                <div className="zoom-scal zoom-scal-nopb"><img className="blur-up lazyload" src={AppURL.Images+'/pcat/pcat8.jpg'} alt="collection" title="" width="300" height="300" /></div>
                 <div className="details mt-3 text-center irfDt">
-                    <h4 className="category-title mb-0">Agriculture Tools</h4>
+                    <h4 className="category-title mb-0">Trousers</h4>
                     <p className="counts">20 Products</p>
                 </div>
             </a>
         </div>
         <div className="category-item irfCt zoomscal-hov" style={categoryItemStyle}>
             <a href="shop-left-sidebar.html" className="category-link clr-none">
-                <div className="zoom-scal zoom-scal-nopb"><img className="blur-up lazyload" data-src={AppURL.Images+'/1018.jpg'} src={AppURL.Images+'/1011.jpg'} alt="collection" title="" width="300" height="300" /></div>
+                <div className="zoom-scal zoom-scal-nopb"><img className="blur-up lazyload" src={AppURL.Images+'/pcat/pcat9.jpg'} alt="collection" title="" width="300" height="300" /></div>
                 <div className="details mt-3 text-center irfDt">
-                    <h4 className="category-title mb-0">Agriculture Tools</h4>
+                    <h4 className="category-title mb-0">Toys</h4>
                     <p className="counts">20 Products</p>
                 </div>
             </a>
         </div>
         <div className="category-item irfCt zoomscal-hov" style={categoryItemStyle}>
             <a href="shop-left-sidebar.html" className="category-link clr-none">
-                <div className="zoom-scal zoom-scal-nopb"><img className="blur-up lazyload" data-src={AppURL.Images+'/1017.jpg'} src={AppURL.Images+'/1011.jpg'} alt="collection" title="" width="300" height="300" /></div>
+                <div className="zoom-scal zoom-scal-nopb"><img className="blur-up lazyload" src={AppURL.Images+'/pcat/pcat10.jpg'} alt="collection" title="" width="300" height="300" /></div>
                 <div className="details mt-3 text-center irfDt">
-                    <h4 className="category-title mb-0">Agriculture Tools</h4>
+                    <h4 className="category-title mb-0">Shirts</h4>
+                    <p className="counts">20 Products</p>
+                </div>
+            </a>
+        </div>
+
+        <div className="category-item irfCt zoomscal-hov" style={categoryItemStyle}>
+            <a href="shop-left-sidebar.html" className="category-link clr-none">
+                <div className="zoom-scal zoom-scal-nopb"><img className="blur-up lazyload" src={AppURL.Images+'/pcat/pcat7.jpg'} alt="collection" title="" width="300" height="300" /></div>
+                <div className="details mt-3 text-center irfDt">
+                    <h4 className="category-title mb-0">Undergarments</h4>
                     <p className="counts">20 Products</p>
                 </div>
             </a>
