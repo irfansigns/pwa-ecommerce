@@ -97,7 +97,6 @@ const ProductDetails = (props) => {
                                     {/* End Details Slider  */}
                                    
                                    
-                                   
                                 </div>
                              
                             </div>

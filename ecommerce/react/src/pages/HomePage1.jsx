@@ -156,12 +156,8 @@ return(
                     <h2>Top sales this week</h2>
                 </div>
 
-                                                
-                    
                    <ProductSlider />     
-                                                                                                  
-                
-
+  
                 <div className="view-collection text-center mt-4 mt-md-5 d-none">
                     <a href="shop-left-sidebar.html" className="btn btn-outline-secondary btn-lg">View Collection</a>
                 </div>
@@ -264,63 +260,63 @@ return(
                 
                 <div className="instagram-section instagram-grid">
                     <div className="row sp-row row-cols-xl-5 row-cols-lg-5 row-cols-md-4 row-cols-sm-3 row-cols-2">  
-                        <div className="instagram-item sp-col">
+                        <div className="instagram-item sp-col" style={{ border: '1px solid #D3D3D3' }}>
                             <a href="#;" className="zoom-scal">
                                 <img className="blur-up lazyload" src={AppURL.Images+'/undergarments/romper.jpg'}  alt="image" width="310" height="310" />
                                 <span className="ins-icon d-flex-justify-center"><i className="icon anm anm-instagram"></i></span>
                             </a>
                         </div>
-                        <div className="instagram-item sp-col">
+                        <div className="instagram-item sp-col" style={{ border: '1px solid #D3D3D3' }}>
                             <a href="#;" className="zoom-scal">
                                 <img className="blur-up lazyload" src={AppURL.Images+'/undergarments/bib.jpg'}  alt="image" width="310" height="310" />
                                 <span className="ins-icon d-flex-justify-center"><i className="icon anm anm-instagram"></i></span>
                             </a>
                         </div>
-                        <div className="instagram-item sp-col">
+                        <div className="instagram-item sp-col" style={{ border: '1px solid #D3D3D3' }}>
                             <a href="#;" className="zoom-scal">
                                 <img className="blur-up lazyload" src={AppURL.Images+'/undergarments/babyBed.jpg'}  alt="image" width="310" height="310" />
                                 <span className="ins-icon d-flex-justify-center"><i className="icon anm anm-instagram"></i></span>
                             </a>
                         </div>
-                        <div className="instagram-item sp-col">
+                        <div className="instagram-item sp-col" style={{ border: '1px solid #D3D3D3' }}>
                             <a href="#;" className="zoom-scal">
-                                <img className="blur-up lazyload" src={AppURL.Images+'/undergarments/gloves.jpg'} data-src={AppURL.Images+'/1012.jpg'} alt="image" width="310" height="310" />
+                                <img className="blur-up lazyload" src={AppURL.Images+'/undergarments/gloves.jpg'}  alt="image" width="310" height="310" />
                                 <span className="ins-icon d-flex-justify-center"><i className="icon anm anm-instagram"></i></span>
                             </a>
                         </div>
-                        <div className="instagram-item sp-col">
+                        <div className="instagram-item sp-col" style={{ border: '1px solid #D3D3D3' }}>
                             <a href="#;" className="zoom-scal">
-                                <img className="blur-up lazyload" src={AppURL.Images+'/undergarments/towel.jpg'} data-src={AppURL.Images+'/1001.jpg'} alt="image" width="310" height="310" />
+                                <img className="blur-up lazyload" src={AppURL.Images+'/undergarments/towel.jpg'}  alt="image" width="310" height="310" />
                                 <span className="ins-icon d-flex-justify-center"><i className="icon anm anm-instagram"></i></span>
                             </a>
                         </div>
-                        <div className="instagram-item sp-col">
+                        <div className="instagram-item sp-col" style={{ border: '1px solid #D3D3D3' }}>
                             <a href="#;" className="zoom-scal">
-                                <img className="blur-up lazyload" src={AppURL.Images+'/undergarments/52.jpg'} data-src={AppURL.Images+'/1002.jpg'} alt="image" width="310" height="310" />
+                                <img className="blur-up lazyload" src={AppURL.Images+'/undergarments/52.jpg'} alt="image" width="310" height="310" />
                                 <span className="ins-icon d-flex-justify-center"><i className="icon anm anm-instagram"></i></span>
                             </a>
                         </div>
-                        <div className="instagram-item sp-col">
+                        <div className="instagram-item sp-col" style={{ border: '1px solid #D3D3D3' }}>
                             <a href="#;" className="zoom-scal">
-                                <img className="blur-up lazyload" src={AppURL.Images+'/undergarments/25.jpg'} data-src={AppURL.Images+'/1003.jpg'} alt="image" width="310" height="310" />
+                                <img className="blur-up lazyload" src={AppURL.Images+'/undergarments/25.jpg'}  alt="image" width="310" height="310" />
                                 <span className="ins-icon d-flex-justify-center"><i className="icon anm anm-instagram"></i></span>
                             </a>
                         </div>
-                        <div className="instagram-item sp-col">
+                        <div className="instagram-item sp-col" style={{ border: '1px solid #D3D3D3' }}>
                             <a href="#;" className="zoom-scal">
-                                <img className="blur-up lazyload" src={AppURL.Images+'/undergarments/ladiesUnder.jpg'} data-src={AppURL.Images+'/1004.jpg'} alt="image" width="310" height="310" />
+                                <img className="blur-up lazyload" src={AppURL.Images+'/undergarments/ladiesUnder.jpg'}  alt="image" width="310" height="310" />
                                 <span className="ins-icon d-flex-justify-center"><i className="icon anm anm-instagram"></i></span>
                             </a>
                         </div>
-                        <div className="instagram-item sp-col">
+                        <div className="instagram-item sp-col" style={{ border: '1px solid #D3D3D3' }}>
                             <a href="#;" className="zoom-scal">
-                                <img className="blur-up lazyload" src={AppURL.Images+'/undergarments/dsox.jpg'} data-src={AppURL.Images+'/1005.jpg'} alt="image" width="310" height="310" />
+                                <img className="blur-up lazyload" src={AppURL.Images+'/undergarments/dsox.jpg'}  alt="image" width="310" height="310" />
                                 <span className="ins-icon d-flex-justify-center"><i className="icon anm anm-instagram"></i></span>
                             </a>
                         </div>
-                        <div className="instagram-item sp-col">
+                        <div className="instagram-item sp-col" style={{ border: '1px solid #D3D3D3' }}>
                             <a href="#;" className="zoom-scal">
-                                <img className="blur-up lazyload" src={AppURL.Images+'/undergarments/leathersocks.jpg'} data-src={AppURL.Images+'/1006.jpg'} alt="image" width="310" height="310" />
+                                <img className="blur-up lazyload" src={AppURL.Images+'/undergarments/leathersocks.jpg'}  alt="image" width="310" height="310" />
                                 <span className="ins-icon d-flex-justify-center"><i className="icon anm anm-instagram"></i></span>
                             </a>
                         </div>
@@ -340,12 +336,12 @@ return(
                                     <div className="collection-item sp-col">
                                         <a href="shop-left-sidebar.html" className="zoom-scal clr-none">
                                             <div className="img">
-                                            <img className="w-100 blur-up lazyload" data-src={AppURL.Images+'/test/demo.jpg'} src={AppURL.Images+'/test/demo.jpg'} alt="collection" title="" width="533" height="447" />
+                                            <img className="w-100 blur-up lazyload" src={AppURL.Images+'/pcat/pcat16.jpg'} alt="collection" title="" width="533" height="447" />
                                             </div>
                                             <div className="details middle-left">
                                                 <div className="inner text-left">
-                                                    <h3 className="title">Construction <br />Tools</h3>
-                                                    <p className="counts">25 Products</p>
+                                                    {/* <h3 className="title">Construction <br />Tools</h3> */}
+                                                    {/* <p className="counts">25 Products</p> */}
                                                 </div>
                                             </div>
                                         </a>
@@ -360,7 +356,7 @@ return(
                                             <div className="details middle-center text-center d-flex-justify-center whiteText offerText w-100 h-100 p-0">
                                                 <p className="tex-top text-uppercase m-0">Super Sale</p>
                                                 <h3 className="pro-sale m-0"><span className="tex1 d-block">Get 40%</span><span className="tex2 d-block my-2 my-md-0">OFF</span><span className="tex3 d-block">All Products</span></h3>
-                                                <p className="tex-bom m-0">Discount Code <span className="code fw-bold m-0 d-block text-uppercase">Hema40</span></p>
+                                                <p className="tex-bom m-0">Discount Code <span className="code fw-bold m-0 d-block text-uppercase">BEYOND40</span></p>
                                             </div>
                                         </a>
                                     </div>                                
@@ -369,12 +365,12 @@ return(
                                     <div className="collection-item sp-col">
                                         <a href="shop-left-sidebar.html" className="zoom-scal clr-none">
                                             <div className="img">
-                                                <img className="w-100 blur-up lazyload" data-src={AppURL.Images+'/test/demo5.jpg'} src={AppURL.Images+'/test/demo5.jpg'} alt="collection" title="" width="533" height="447" />
+                                                <img className="w-100 blur-up lazyload" src={AppURL.Images+'/pcat/pcat21.jpg'} alt="collection" title="" width="533" height="447" />
                                             </div>
                                             <div className="details middle-right">
                                                 <div className="inner text-left">
-                                                    <h3 className="title">Garden <br />Tools</h3>
-                                                    <p className="counts">12 Products</p>
+                                                    {/* <h3 className="title">Garden <br />Tools</h3> */}
+                                                    {/* <p className="counts">12 Products</p> */}
                                                 </div>
                                             </div>
                                         </a>
