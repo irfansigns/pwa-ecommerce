@@ -180,7 +180,7 @@ return(
                     <div className="row sp-row">
                         <div className="col-12 col-sm-6 col-md-4 col-lg-4 collection-banner-item">
                             <div className="collection-item sp-col">
-                                <a href="shop-left-sidebar.html" className="rounded-5 zoom-scal zoom-scal-nopb clr-none">
+                                <Link to="shop/5" className="rounded-5 zoom-scal zoom-scal-nopb clr-none">
                                     <div className="img">
                                         <img className="rounded-5 blur-up lazyload" src={AppURL.Images+'/jewellery/j1.jpg'} src={AppURL.Images+'/jewellery/j1.jpg'} alt="collection" title="" width="639" height="429" />
                                     </div>
@@ -190,12 +190,12 @@ return(
                                             <p className="counts text-small">18 Products</p>
                                         </div>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="col-12 col-sm-6 col-md-4 col-lg-4 collection-banner-item">
                             <div className="collection-item sp-col">
-                                <a href="shop-left-sidebar.html" className="rounded-5 zoom-scal zoom-scal-nopb clr-none">
+                                <Link to="shop/5" className="rounded-5 zoom-scal zoom-scal-nopb clr-none">
                                     <div className="img">
                                         <img className="rounded-5 blur-up lazyload" src={AppURL.Images+'/jewellery/j2.jpg'} src={AppURL.Images+'/jewellery/j2.jpg'} alt="collection" title="" width="639" height="429" />
                                     </div>
@@ -205,12 +205,12 @@ return(
                                             <p className="counts text-small">12 Products</p>
                                         </div>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="col-12 col-sm-6 col-md-4 col-lg-4 collection-banner-item">                                    
                             <div className="collection-item sp-col">
-                                <a href="shop-left-sidebar.html" className="rounded-5 zoom-scal zoom-scal-nopb clr-none">
+                                <Link to="shop/5" className="rounded-5 zoom-scal zoom-scal-nopb clr-none">
                                     <div className="img">
                                         <img className="rounded-5 blur-up lazyload" src={AppURL.Images+'/jewellery/j3.jpg'} src={AppURL.Images+'/jewellery/j3.jpg'} alt="collection" title="" width="639" height="429" />
                                     </div>
@@ -220,7 +220,7 @@ return(
                                             <p className="counts text-small">17 Products</p>
                                         </div>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -265,64 +265,64 @@ return(
                 <div className="instagram-section instagram-grid">
                     <div className="row sp-row row-cols-xl-5 row-cols-lg-5 row-cols-md-4 row-cols-sm-3 row-cols-2">  
                         <div className="instagram-item sp-col" style={{ border: '1px solid #D3D3D3' }}>
-                            <a href="#;" className="zoom-scal">
+                            <Link to="shop/14" className="zoom-scal">
                                 <img className="blur-up lazyload" src={AppURL.Images+'/undergarments/romper.jpg'}  alt="image" width="310" height="310" />
                                 <span className="ins-icon d-flex-justify-center"><i className="icon anm anm-instagram"></i></span>
-                            </a>
+                            </Link>
                         </div>
                         <div className="instagram-item sp-col" style={{ border: '1px solid #D3D3D3' }}>
-                            <a href="#;" className="zoom-scal">
+                            <Link to="shop/14" className="zoom-scal">
                                 <img className="blur-up lazyload" src={AppURL.Images+'/undergarments/bib.jpg'}  alt="image" width="310" height="310" />
                                 <span className="ins-icon d-flex-justify-center"><i className="icon anm anm-instagram"></i></span>
-                            </a>
+                            </Link>
                         </div>
                         <div className="instagram-item sp-col" style={{ border: '1px solid #D3D3D3' }}>
-                            <a href="#;" className="zoom-scal">
+                            <Link to="shop/14" className="zoom-scal">
                                 <img className="blur-up lazyload" src={AppURL.Images+'/undergarments/babyBed.jpg'}  alt="image" width="310" height="310" />
                                 <span className="ins-icon d-flex-justify-center"><i className="icon anm anm-instagram"></i></span>
-                            </a>
+                            </Link>
                         </div>
                         <div className="instagram-item sp-col" style={{ border: '1px solid #D3D3D3' }}>
-                            <a href="#;" className="zoom-scal">
+                            <Link to="shop/9" className="zoom-scal">
                                 <img className="blur-up lazyload" src={AppURL.Images+'/undergarments/gloves.jpg'}  alt="image" width="310" height="310" />
                                 <span className="ins-icon d-flex-justify-center"><i className="icon anm anm-instagram"></i></span>
-                            </a>
+                            </Link>
                         </div>
                         <div className="instagram-item sp-col" style={{ border: '1px solid #D3D3D3' }}>
-                            <a href="#;" className="zoom-scal">
+                            <Link to="shop/9" className="zoom-scal">
                                 <img className="blur-up lazyload" src={AppURL.Images+'/undergarments/towel.jpg'}  alt="image" width="310" height="310" />
                                 <span className="ins-icon d-flex-justify-center"><i className="icon anm anm-instagram"></i></span>
-                            </a>
+                            </Link>
                         </div>
                         <div className="instagram-item sp-col" style={{ border: '1px solid #D3D3D3' }}>
-                            <a href="#;" className="zoom-scal">
+                            <Link to="shop/9" className="zoom-scal">
                                 <img className="blur-up lazyload" src={AppURL.Images+'/undergarments/52.jpg'} alt="image" width="310" height="310" />
                                 <span className="ins-icon d-flex-justify-center"><i className="icon anm anm-instagram"></i></span>
-                            </a>
+                            </Link>
                         </div>
                         <div className="instagram-item sp-col" style={{ border: '1px solid #D3D3D3' }}>
-                            <a href="#;" className="zoom-scal">
+                            <Link to="shop/9" className="zoom-scal">
                                 <img className="blur-up lazyload" src={AppURL.Images+'/undergarments/25.jpg'}  alt="image" width="310" height="310" />
                                 <span className="ins-icon d-flex-justify-center"><i className="icon anm anm-instagram"></i></span>
-                            </a>
+                            </Link>
                         </div>
                         <div className="instagram-item sp-col" style={{ border: '1px solid #D3D3D3' }}>
-                            <a href="#;" className="zoom-scal">
+                            <Link to="shop/9" className="zoom-scal">
                                 <img className="blur-up lazyload" src={AppURL.Images+'/undergarments/ladiesUnder.jpg'}  alt="image" width="310" height="310" />
                                 <span className="ins-icon d-flex-justify-center"><i className="icon anm anm-instagram"></i></span>
-                            </a>
+                            </Link>
                         </div>
                         <div className="instagram-item sp-col" style={{ border: '1px solid #D3D3D3' }}>
-                            <a href="#;" className="zoom-scal">
+                            <Link to="shop/9" className="zoom-scal">
                                 <img className="blur-up lazyload" src={AppURL.Images+'/undergarments/dsox.jpg'}  alt="image" width="310" height="310" />
                                 <span className="ins-icon d-flex-justify-center"><i className="icon anm anm-instagram"></i></span>
-                            </a>
+                            </Link>
                         </div>
                         <div className="instagram-item sp-col" style={{ border: '1px solid #D3D3D3' }}>
-                            <a href="#;" className="zoom-scal">
+                            <Link to="shop/9" className="zoom-scal">
                                 <img className="blur-up lazyload" src={AppURL.Images+'/undergarments/leathersocks.jpg'}  alt="image" width="310" height="310" />
                                 <span className="ins-icon d-flex-justify-center"><i className="icon anm anm-instagram"></i></span>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -338,7 +338,7 @@ return(
                             <div className="row sp-row">
                                 <div className="col-12 col-sm-12 col-md-5 col-lg-5 collection-banner-item">
                                     <div className="collection-item sp-col">
-                                        <a href="shop-left-sidebar.html" className="zoom-scal clr-none">
+                                        <Link to="shop/1" className="zoom-scal clr-none">
                                             <div className="img">
                                             <img className="w-100 blur-up lazyload" src={AppURL.Images+'/pcat/pcat16.jpg'} alt="collection" title="" width="533" height="447" />
                                             </div>
@@ -348,7 +348,7 @@ return(
                                                     {/* <p className="counts">25 Products</p> */}
                                                 </div>
                                             </div>
-                                        </a>
+                                        </Link>
                                     </div>                                
                                 </div>
                                 <div className="col-12 col-sm-12 col-md-2 col-lg-2 collection-banner-item">
@@ -367,7 +367,7 @@ return(
                                 </div>
                                 <div className="col-12 col-sm-12 col-md-5 col-lg-5 collection-banner-item">
                                     <div className="collection-item sp-col">
-                                        <a href="shop-left-sidebar.html" className="zoom-scal clr-none">
+                                        <Link to="shop/1" className="zoom-scal clr-none">
                                             <div className="img">
                                                 <img className="w-100 blur-up lazyload" src={AppURL.Images+'/pcat/pcat21.jpg'} alt="collection" title="" width="533" height="447" />
                                             </div>
@@ -377,7 +377,7 @@ return(
                                                     {/* <p className="counts">12 Products</p> */}
                                                 </div>
                                             </div>
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

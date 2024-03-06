@@ -95,7 +95,7 @@ if(!categories){
             <div className="row">
                 
                 <div className="logo col-4 col-sm-4 col-md-4 col-lg-3 align-self-center">
-                    <a className="logoImg" href="index.html"><img src={AppURL.Images+'/logo/logo-white.png'} alt="Hema Multipurpose Html Template" title="Hema Multipurpose Html Template" width="149" height="39" /></a>
+                    <Link className="logoImg" to="/"><img src={AppURL.Images+'/logo/logo-white.png'} alt="Hema Multipurpose Html Template" title="Hema Multipurpose Html Template" width="149" height="39" /></Link>
                 </div>
                 
                 <div className="col-1 col-sm-1 col-md-1 col-lg-6 align-self-center d-menu-col">

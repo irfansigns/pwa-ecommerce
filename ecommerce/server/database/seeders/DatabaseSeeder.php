@@ -1826,6 +1826,53 @@ class DatabaseSeeder extends Seeder
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ]
                 ],
+            ],
+
+            [
+                'cname' => 'Kids',
+                'dept'  => '2', // Example department
+                'products' => [
+                    [
+                        'pname' => 'Baby Zipper',
+                        'price' => 1000,
+                        'qty' => 20,
+                        'i_path' => '/kids/babyBed.jpg',
+                        'featured' => 'false',
+                        'description_id' => '',
+                        'images' => ['babyBed.jpg','bib.jpg','romper.jpg','carryBag.jpg']
+                    ],
+                    [
+                        'pname' => 'Bib',
+                        'price' => 1000,
+                        'qty' => 20,
+                        'i_path' => '/kids/bib.jpg',
+                        'featured' => 'false',
+                        'description_id' => '',
+                        'images' => ['babyBed.jpg','bib.jpg','romper.jpg','carryBag.jpg']
+                    ],
+                   
+
+                    [
+                        'pname' => 'Romper',
+                        'price' => 1000,
+                        'qty' => 20,
+                        'i_path' => '/kids/romper.jpg',
+                        'featured' => 'false',
+                        'description_id' => '',
+                        'images' => ['babyBed.jpg','bib.jpg','romper.jpg','carryBag.jpg']
+                    ],
+
+
+                    [
+                        'pname' => 'Carry Bag',
+                        'price' => 1000,
+                        'qty' => 20,
+                        'i_path' => '/kids/carryBag.jpg',
+                        'featured' => 'false',
+                        'description_id' => '',
+                        'images' => ['babyBed.jpg','bib.jpg','romper.jpg','carryBag.jpg']
+                    ],
+                ],
             ]
             
         ];
