@@ -20,7 +20,18 @@ const CartPage = () => {
       gsaddress:'',
       gscontact:''
     });
+    
     const navigate = useNavigate();
+
+    // toast.success('Order Placed Successfully!', {
+    //     position: "top-right",
+    //     autoClose: 5000,
+    //     hideProgressBar: false,
+    //     closeOnClick: true,
+    //     pauseOnHover: true,
+    //     draggable: true,
+    //     progress: undefined,
+    //     });
 
     function handleClose(){
       setLoginMod(loginMod => ({...loginMod,show:false}));
@@ -61,17 +72,18 @@ const CartPage = () => {
               setLoginMod(loginMod => ({...loginMod,show:true}));
             }
             if(response.data=="Record Entered Successfully"){
-              dispatch({type: 'EMPTY'})
-              setRedirect(true);
-              toast.success('Order Placed Successfully!', {
-                position: "top-right",
-                autoClose: 5000,
-                hideProgressBar: false,
-                closeOnClick: true,
-                pauseOnHover: true,
-                draggable: true,
-                progress: undefined,
-                });
+                console.log(response.data);
+              dispatch({type: 'EMPTY'});
+
+              navigate('/', { 
+                  //an object named 'state' is passed with 'navigate' which will be accessed using location hook on home page.
+                state: { 
+                    showToast: true,
+                    toastMessage: 'Order Placed Successfully!',
+                    toastType: 'success' // You can optionally customize the toast type
+                } 
+              });
+              
             }            
       })   
     }
@@ -82,7 +94,7 @@ const CartPage = () => {
     //   let navigate = useNavigate();
   
       // To redirect, use:
-      navigate('/');
+    //   navigate('/');
     }
 
     let cartData=<h3>Cart is empty</h3>;
@@ -323,6 +335,7 @@ const CartPage = () => {
            
               {/* Modal End  */}
             </div>
+            
         </>
     )
 }

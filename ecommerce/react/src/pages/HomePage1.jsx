@@ -2,13 +2,28 @@ import React, {useContext , useState, useEffect} from 'react';
 import { productContext } from "../global/productContext";
 import { cartContext } from "../global/cartContext";
 import AppURL from '../AppURL';
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import ProductSlider from '../components/Slider/ProductSlider';
 import CategorySlider from '../components/Slider/CategorySlider';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const HomePage1 =()=>{
 
-    const {products} = useContext(productContext);
+    
+    const location = useLocation();
+
+    useEffect(() => {
+        if (location.state?.showToast) {
+            toast[location.state.toastType](location.state.toastMessage); 
+
+            // Clear the state after displaying the toast
+            setTimeout(() => {
+                window.history.replaceState({}, document.title);
+            }, 100); // Adjust timeout if needed
+        }
+    }, [location]);
 
     useEffect(() => {
         // This code will run after the component has been rendered
@@ -389,7 +404,7 @@ return(
         
 
     </div>
-    
+    <ToastContainer />
   {/* <Outlet /> */}
   </>
 )
