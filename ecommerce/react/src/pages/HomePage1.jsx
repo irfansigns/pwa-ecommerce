@@ -8,6 +8,8 @@ import CategorySlider from '../components/Slider/CategorySlider';
 
 const HomePage1 =()=>{
 
+    const {products} = useContext(productContext);
+
     useEffect(() => {
         // This code will run after the component has been rendered
     
@@ -40,6 +42,8 @@ const HomePage1 =()=>{
         });
       }, []);
 
+    
+
 return(
   <>
     <div id="page-content" className="mb-0">               
@@ -56,7 +60,7 @@ return(
                         <div className="collection-banner-item mb-3 mt-md-0">
                             <div className="row sp-row row-cols-lg-1 row-cols-md-1 row-cols-sm-1 row-cols-1">
                                 <div className="collection-item sp-col large-bnr">
-                                    <a href="shop-left-sidebar.html" className="zoom-scal clr-none">
+                                    <Link to='shop/11' className="zoom-scal clr-none">
                                         <div className="img">
                                             <img className="blur-up lazyload w-100" src={AppURL.Images+'/1007.jpg'} alt="collection" title="" width="646" height="648" />
                                         </div>
@@ -67,14 +71,14 @@ return(
                                                 <span className="btn btn-primary btn-md rounded-pill mt-3">Order Now</span>
                                             </div>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
                         <div className="collection-banner-item">
                             <div className="row sp-row row-cols-lg-2 row-cols-md-2 row-cols-sm-2 row-cols-2">
                                 <div className="collection-item sp-col">
-                                    <a href="shop-left-sidebar.html" className="zoom-scal clr-none">
+                                    <Link to='shop/11' className="zoom-scal clr-none">
                                         <div className="img">
                                             <img className="blur-up lazyload w-100" src={AppURL.Images+'/1006.jpg'} alt="collection" title="" width="306" height="307" />
                                         </div>
@@ -83,10 +87,10 @@ return(
                                                 <span className="btn btn-primary btn-lg text-nowrap">UNISEX SQUARE</span>
                                             </div>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div className="collection-item sp-col sale-banner">
-                                    <a href="shop-left-sidebar.html" className="zoom-scal clr-none">
+                                    <Link to='shop/11' className="zoom-scal clr-none">
                                         <div className="img">
                                             <img className="blur-up lazyload w-100" src={AppURL.Images+'/1008.jpg'} alt="collection" title="" width="306" height="307" />
                                         </div>
@@ -97,10 +101,10 @@ return(
                                                 <span className="btn btn-secondary btn-md mt-3 xs-hide">Shop Now</span>
                                             </div>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>   
                                 <div className="collection-item sp-col">
-                                    <a href="shop-left-sidebar.html" className="zoom-scal clr-none">
+                                    <Link to='shop/11' className="zoom-scal clr-none">
                                         <div className="img">
                                             <img className="blur-up lazyload w-100" src={AppURL.Images+'/1009.jpg'} alt="collection" title="" width="306" height="307" />
                                         </div>
@@ -109,10 +113,10 @@ return(
                                                 <span className="btn btn-primary btn-lg text-nowrap">Stylish Glass</span>
                                             </div>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div className="collection-item sp-col">
-                                    <a href="shop-left-sidebar.html" className="zoom-scal clr-none">
+                                    <Link to='shop/11' className="zoom-scal clr-none">
                                         <div className="img">
                                             <img className="blur-up lazyload w-100" src={AppURL.Images+'/1011.jpg'} alt="collection" title="" width="306" height="307" />
                                         </div>
@@ -121,7 +125,7 @@ return(
                                                 <span className="btn btn-primary btn-lg text-nowrap">Antiglare</span>
                                             </div>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

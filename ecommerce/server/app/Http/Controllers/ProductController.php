@@ -86,7 +86,8 @@ class ProductController extends Controller
     }
 
     public function ProductList(Request $request){
-        $productlist = Product::where('featured','true')->get();
+        // $productlist = Product::where('featured','true')->get();
+        $productlist = Product::where('category_id', 11)->get();
         
         // try{
             
