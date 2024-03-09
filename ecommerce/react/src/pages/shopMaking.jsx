@@ -6,10 +6,9 @@ import AppURL from '../AppURL';
 import axios from 'axios';
 
 const Shop =(props)=>{    
+  const { products, categories, dispatch: productDispatch } = useContext(productContext);
+  const { dispatch: cartDispatch } = useContext(cartContext);
   const [Items , setItems] = useState([]);
-  const {products} = useContext(productContext);
-  const {categories} = useContext(productContext);
-  const {dispatch} = useContext(cartContext);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState(null);
   const params = useParams()
