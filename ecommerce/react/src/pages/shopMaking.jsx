@@ -6,31 +6,43 @@ import AppURL from '../AppURL';
 import axios from 'axios';
 
 const Shop =(props)=>{    
-  const { products, categories, dispatch: productDispatch } = useContext(productContext);
-  const { dispatch: cartDispatch } = useContext(cartContext);
-  const [Items , setItems] = useState([]);
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [selectedProduct, setSelectedProduct] = useState(null);
-  const params = useParams()
-
+    const [Items, setItems] = useState([]);
+    const { products, categories, dispatch } = useContext(productContext); // Destructure dispatch here
+    const { dispatch: cartDispatch } = useContext(cartContext);
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const [selectedProduct, setSelectedProduct] = useState(null);
+    const params = useParams();
+  
   
 
-  useEffect(() => {
-    // console.log(params);
-    const fetchItems = () => {
-        axios.get(AppURL.Categories(params.code)).then(response=>{
-            console.log("fetchItems Function Called");
-            setItems(response.data);
-            // console.dir(response.data);
-        }).catch(error=>{
+//   useEffect(() => {
+    
+//     const fetchItems = () => {
+//         axios.get(AppURL.Categories(params.code)).then(response=>{
+//             console.log("fetchItems Function Called");
+//             setItems(response.data);
             
-        });
+//         }).catch(error=>{
+            
+//         });
         
+//     }
+//     if(params.code){
+//       fetchItems();
+//     }
+//   }, [params]);
+
+  useEffect(() => {
+    // Example of how to fetch more products and update categories if needed
+    if (params.code) {
+        axios.get(AppURL.Categories(params.code))
+            .then(response => {
+                dispatch({ type: 'ADD_MORE_PRODUCTS', payload: response.data });
+                // Optionally update categories here if needed with setCategories
+            })
+            .catch(error => console.error("Failed to fetch more products:", error));
     }
-    if(params.code){
-      fetchItems();
-    }
-  }, [params]);
+  }, [params.code, dispatch, setCategories]);
 
   const handleProductClick = (product) => {
     setSelectedProduct(product);
