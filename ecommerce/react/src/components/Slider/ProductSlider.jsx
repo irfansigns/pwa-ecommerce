@@ -13,7 +13,7 @@ import '../../assets/css/cascade.css'
 const ProductSlider = () => {
 
     const {products} = useContext(productContext);
-    console.log(products);
+    // console.log(products);
     const userView = products.map((product,key)=>{
         return(
           <>

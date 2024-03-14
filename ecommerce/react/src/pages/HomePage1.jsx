@@ -197,7 +197,7 @@ return(
                             <div className="collection-item sp-col">
                                 <Link to="shop/5" className="rounded-5 zoom-scal zoom-scal-nopb clr-none">
                                     <div className="img">
-                                        <img className="rounded-5 blur-up lazyload" src={AppURL.Images+'/jewellery/j1.jpg'} src={AppURL.Images+'/jewellery/j1.jpg'} alt="collection" title="" width="639" height="429" />
+                                        <img className="rounded-5 blur-up lazyload"  src={AppURL.Images+'/jewellery/j1.jpg'} alt="collection" title="" width="639" height="429" />
                                     </div>
                                     <div className="details middle-right">
                                         <div className="inner">
@@ -212,7 +212,7 @@ return(
                             <div className="collection-item sp-col">
                                 <Link to="shop/5" className="rounded-5 zoom-scal zoom-scal-nopb clr-none">
                                     <div className="img">
-                                        <img className="rounded-5 blur-up lazyload" src={AppURL.Images+'/jewellery/j2.jpg'} src={AppURL.Images+'/jewellery/j2.jpg'} alt="collection" title="" width="639" height="429" />
+                                        <img className="rounded-5 blur-up lazyload"  src={AppURL.Images+'/jewellery/j2.jpg'} alt="collection" title="" width="639" height="429" />
                                     </div>
                                     <div className="details middle-right">
                                         <div className="inner">
@@ -227,7 +227,7 @@ return(
                             <div className="collection-item sp-col">
                                 <Link to="shop/5" className="rounded-5 zoom-scal zoom-scal-nopb clr-none">
                                     <div className="img">
-                                        <img className="rounded-5 blur-up lazyload" src={AppURL.Images+'/jewellery/j3.jpg'} src={AppURL.Images+'/jewellery/j3.jpg'} alt="collection" title="" width="639" height="429" />
+                                        <img className="rounded-5 blur-up lazyload"  src={AppURL.Images+'/jewellery/j3.jpg'} alt="collection" title="" width="639" height="429" />
                                     </div>
                                     <div className="details middle-right">
                                         <div className="inner">

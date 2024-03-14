@@ -6,43 +6,32 @@ import AppURL from '../AppURL';
 import axios from 'axios';
 
 const Shop =(props)=>{    
-    const [Items, setItems] = useState([]);
-    const { products, categories, dispatch } = useContext(productContext); // Destructure dispatch here
-    const { dispatch: cartDispatch } = useContext(cartContext);
-    const [isModalOpen, setIsModalOpen] = useState(false);
-    const [selectedProduct, setSelectedProduct] = useState(null);
-    const params = useParams();
-  
-  
+  const [Items , setItems] = useState([]);
+  const {products} = useContext(productContext);
+  const {categories} = useContext(productContext);
+  const {dispatch} = useContext(cartContext);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedProduct, setSelectedProduct] = useState(null);
+  const params = useParams()
 
-//   useEffect(() => {
-    
-//     const fetchItems = () => {
-//         axios.get(AppURL.Categories(params.code)).then(response=>{
-//             console.log("fetchItems Function Called");
-//             setItems(response.data);
-            
-//         }).catch(error=>{
-            
-//         });
-        
-//     }
-//     if(params.code){
-//       fetchItems();
-//     }
-//   }, [params]);
+  
 
   useEffect(() => {
-    // Example of how to fetch more products and update categories if needed
-    if (params.code) {
-        axios.get(AppURL.Categories(params.code))
-            .then(response => {
-                dispatch({ type: 'ADD_MORE_PRODUCTS', payload: response.data });
-                // Optionally update categories here if needed with setCategories
-            })
-            .catch(error => console.error("Failed to fetch more products:", error));
+    // console.log(params);
+    const fetchItems = () => {
+        axios.get(AppURL.Categories(params.code)).then(response=>{
+            console.log("fetchItems Function Called");
+            setItems(response.data);
+            // console.dir(response.data);
+        }).catch(error=>{
+            
+        });
+        
     }
-  }, [params.code, dispatch]);
+    if(params.code){
+      fetchItems();
+    }
+  }, [params]);
 
   const handleProductClick = (product) => {
     setSelectedProduct(product);
@@ -86,74 +75,6 @@ const Shop =(props)=>{
     if(!params.code){
       ProductList = products;
     }
-    // console.log(ProductList+" This is product list");
-
-//     const userView = ProductList
-//   .filter(product => product.category_id === params.code) // Filter products by category
-//   .map((product, key) => (
-//     <div className="item col-item">
-//                                         <div className="product-box">
-                                            
-//                                             <div className="product-image">
-                                              
-//                                                 <Link to={"/details/"+product.id} className="product-img rounded-0"><img className="rounded-0 blur-up lazyload" src={AppURL.Images+product.i_path} alt="Product" title="Product" width="625" height="808" /></Link>
-                                               
-//                                                 {/* <div className="product-labels"><span className="lbl on-sale">Sale</span></div> */}
-                                               
-//                                                 <div className="saleTime" data-countdown="2025/01/01"></div>
-                                               
-//                                                 <div className="button-set style1">
-                                                   
-//                                                     <a href="#quickshop-modal" onClick={() => dispatch({type: 'ADD_TO_CART', id: product.id, products})} className="btn-icon addtocart quick-shop-modal" data-bs-toggle="modal" data-bs-target="#quickshop_modal">
-//                                                         <span className="icon-wrap d-flex-justify-center h-100 w-100" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick Shop"><i className="icon anm anm-cart-l"></i><span className="text">Quick Shop</span></span>
-//                                                     </a>
-                                                  
-//                                                     <a href="#quickview-modal" className="btn-icon quickview quick-view-modal" data-bs-toggle="modal" data-bs-target="#quickview_modal" onClick={() => handleProductClick(product)}>
-//                                                         <span className="icon-wrap d-flex-justify-center h-100 w-100" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick View"><i className="icon anm anm-search-plus-l"></i><span className="text">Quick View</span></span>
-//                                                     </a>
-                                                   
-//                                                     <a href="wishlist-style2.html" className="btn-icon wishlist" data-bs-toggle="tooltip" data-bs-placement="left" title="Add To Wishlist"><i className="icon anm anm-heart-l"></i><span className="text">Add To Wishlist</span></a>
-                                                   
-//                                                     <a href="compare-style2.html" className="btn-icon compare" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to Compare"><i className="icon anm anm-random-r"></i><span className="text">Add to Compare</span></a>
-                                                  
-//                                                 </div>
-                                                
-//                                             </div>
-                                           
-//                                             <div className="product-details text-center">
-                                                                                            
-//                                                 <div className="product-name">
-//                                                     <a href="product-layout1.html">{product.pname}</a>
-//                                                 </div>
-                                              
-//                                                 <div className="product-price">
-//                                                     <span className="price old-price">Rs.{product.price * 1.25}</span><span className="price">Rs.{product.price}</span>
-//                                                 </div>
-                                              
-                                               
-                                               
-//                                                 <p className="sort-desc hidden">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage...</p>
-                                                
-                                                
-                                               
-//                                                 <div className="button-action hidden">
-//                                                     <div className="addtocart-btn">
-//                                                         <form className="addtocart" action="#" method="post">
-//                                                             <a href="#quickshop-modal" className="btn btn-md quick-shop quick-shop-modal" data-bs-toggle="modal" data-bs-target="#quickshop_modal">
-//                                                                 <i className="icon anm anm-cart-l me-2"></i><span className="text">Quick Shop</span>
-//                                                             </a>
-//                                                         </form>
-//                                                     </div>
-//                                                 </div>
-                                                
-//                                             </div>
-                                            
-//                                         </div>
-//                                     </div>
-        
-//   ));
-
-
     const userView = ProductList.map((product,key)=>{
       return(
         <>
