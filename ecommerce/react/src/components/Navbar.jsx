@@ -77,7 +77,7 @@ if(!categories){
     });
 
     const arts = categories
-    .filter(mcat => mcat.dept === '3') // Filter categories where dept is '3'
+    .filter(mcat => mcat.dept == '3') // Filter categories where dept is '3'
     .slice(0, 12) // Take only the first 10 items
     .map((mcat, key) => { // Map over these 10 items
         return (
@@ -140,94 +140,44 @@ if(!categories){
                             <li className="lvl1 parent megamenu"><a href="#">Product <i className="icon anm anm-angle-down-l"></i></a>
                                 <div className="megamenu style2">
                                     <ul className="row mmWrapper">
-                                        <li className="lvl-1 col-md-3 col-lg-3"><a href="#;" className="site-nav lvl-1 menu-title">Product Page</a>
+                                        <li className="lvl-1 col-md-3 col-lg-3"><a href="#;" className="site-nav lvl-1 menu-title">Your Products</a>
                                             <ul className="subLinks">
-                                                <li className="lvl-2"><a href="product-layout1.html" className="site-nav lvl-2">Product Layout1</a></li>
-                                                <li className="lvl-2"><a href="product-layout2.html" className="site-nav lvl-2">Product Layout2</a></li>
-                                                <li className="lvl-2"><a href="product-layout3.html" className="site-nav lvl-2">Product Layout3</a></li>
-                                                <li className="lvl-2"><a href="product-layout4.html" className="site-nav lvl-2">Product Layout4</a></li>
-                                                <li className="lvl-2"><a href="product-layout5.html" className="site-nav lvl-2">Product Layout5</a></li>
-                                                <li className="lvl-2"><a href="product-layout6.html" className="site-nav lvl-2">Product Layout6</a></li>
-                                                <li className="lvl-2"><a href="product-layout7.html" className="site-nav lvl-2">Product Layout7</a></li>
-                                                <li className="lvl-2"><a href="product-3d-ar-models.html" className="site-nav lvl-2">Product 3D, AR models</a></li>
+                                                <li className="lvl-2"><Link to="/shop" className="site-nav lvl-2">Product Layout1</Link></li>
+                                                <li className="lvl-2"><Link to="/shop" className="site-nav lvl-2">Product Layout1</Link></li>
+                                                <li className="lvl-2"><Link to="/shop" className="site-nav lvl-2">Product Layout1</Link></li>
+                                                <li className="lvl-2"><Link to="/shop" className="site-nav lvl-2">Product Layout1</Link></li>
+                                                <li className="lvl-2"><Link to="/shop" className="site-nav lvl-2">Product Layout1</Link></li>
+                                                <li className="lvl-2"><Link to="/shop" className="site-nav lvl-2">Product Layout1</Link></li>
+                                                <li className="lvl-2"><Link to="/shop" className="site-nav lvl-2">Product Layout1</Link></li>
+                                                <li className="lvl-2"><Link to="/shop" className="site-nav lvl-2">Product Layout1</Link></li>
+                                                
                                             </ul>
                                         </li>
-                                        <li className="lvl-1 col-md-3 col-lg-3"><a href="#;" className="site-nav lvl-1 menu-title">Product Page Types</a>
+                                        <li className="lvl-1 col-md-3 col-lg-3"><a href="#;" className="site-nav lvl-1 menu-title">Your Products</a>
                                             <ul className="subLinks">
-                                                <li className="lvl-2"><a href="product-standard.html" className="site-nav lvl-2">Standard Product</a></li>
-                                                <li className="lvl-2"><a href="product-variable.html" className="site-nav lvl-2">Variable Product</a></li>
-                                                <li className="lvl-2"><a href="product-grouped.html" className="site-nav lvl-2">Grouped Product</a></li>
-                                                <li className="lvl-2"><a href="product-layout4.html" className="site-nav lvl-2">Product Back in stock</a></li>
-                                                <li className="lvl-2"><a href="product-layout6.html" className="site-nav lvl-2">Product Accordion</a></li>
-                                                <li className="lvl-2"><a href="product-layout7.html" className="site-nav lvl-2">Product Tabs Left</a></li>
-                                                <li className="lvl-2"><a href="product-layout6.html" className="site-nav lvl-2">Product Bundle</a></li>
-                                                <li className="lvl-2"><a href="prodcut-360-view.html" className="site-nav lvl-2">Product 360 View</a></li>
+                                                <li className="lvl-2"><Link to="/shop" className="site-nav lvl-2">Product Layout1</Link></li>
+                                                <li className="lvl-2"><Link to="/shop" className="site-nav lvl-2">Product Layout1</Link></li>
+                                                <li className="lvl-2"><Link to="/shop" className="site-nav lvl-2">Product Layout1</Link></li>
+                                                <li className="lvl-2"><Link to="/shop" className="site-nav lvl-2">Product Layout1</Link></li>
+                                                <li className="lvl-2"><Link to="/shop" className="site-nav lvl-2">Product Layout1</Link></li>
+                                                <li className="lvl-2"><Link to="/shop" className="site-nav lvl-2">Product Layout1</Link></li>
+                                                <li className="lvl-2"><Link to="/shop" className="site-nav lvl-2">Product Layout1</Link></li>
+                                                <li className="lvl-2"><Link to="/shop" className="site-nav lvl-2">Product Layout1</Link></li>
+                                                
                                             </ul>
                                         </li>
-                                        <li className="lvl-1 col-md-3 col-lg-6 product-col"><a href="#;" className="site-nav lvl-1 menu-title">Weekly Bestsellers</a>
-                                            <div className="grid-products weekly-product gp10 mt-1">
-                                                <div className="item">
-                                                    <div className="product-wrap position-relative">
+                                        <li className="lvl-1 col-md-3 col-lg-3"><a href="#;" className="site-nav lvl-1 menu-title">Your Products</a>
+                                            <ul className="subLinks">
+                                                <li className="lvl-2"><Link to="/shop" className="site-nav lvl-2">Product Layout1</Link></li>
+                                                <li className="lvl-2"><Link to="/shop" className="site-nav lvl-2">Product Layout1</Link></li>
+                                                <li className="lvl-2"><Link to="/shop" className="site-nav lvl-2">Product Layout1</Link></li>
+                                                <li className="lvl-2"><Link to="/shop" className="site-nav lvl-2">Product Layout1</Link></li>
+                                                <li className="lvl-2"><Link to="/shop" className="site-nav lvl-2">Product Layout1</Link></li>
+                                                <li className="lvl-2"><Link to="/shop" className="site-nav lvl-2">Product Layout1</Link></li>
+                                                <li className="lvl-2"><Link to="/shop" className="site-nav lvl-2">Product Layout1</Link></li>
+                                                <li className="lvl-2"><Link to="/shop" className="site-nav lvl-2">Product Layout1</Link></li>
                                                 
-                                                        <div className="product-image mb-0">
-                                                            <a href="product-layout1.html" className="product-img"><img className="blur-up lazyload" data-src="assets/images/products/500x500.jpg" src="assets/images/products/500x500.jpg" alt="product" title="Product" width="500" height="500" /></a>
-                                                            <div className="product-labels round-pill"><span className="lbl on-sale">Sale</span></div>
-                                                        </div>
-                                                
-                                                        <div className="product-details text-center">
-                                                            <div className="product-name"><a className="fw-normal" href="product-layout1.html">Gentle Monster Gold Red</a></div>
-                                                            <div className="product-price">
-                                                                <span className="price old-price">$114.00</span><span className="price">$99.00</span>
-                                                            </div>
-                                                            <div className="product-review">
-                                                                <i className="icon anm anm-star"></i><i className="icon anm anm-star"></i><i className="icon anm anm-star"></i><i className="icon anm anm-star"></i><i className="icon anm anm-star-o"></i>
-                                                                <span className="caption hidden ms-1">3 Reviews</span>
-                                                            </div>
-                                                        </div>
-                                                
-                                                    </div>
-                                                </div>
-                                                <div className="item">
-                                                    <div className="product-wrap position-relative">
-                                                
-                                                        <div className="product-image mb-0">
-                                                            <a href="product-layout1.html" className="product-img"><img className="blur-up lazyload" data-src="assets/images/products/500x500.jpg" src="assets/images/products/500x500.jpg" alt="product" title="Product" width="500" height="500" /></a>
-                                                        </div>
-                                                
-                                                        <div className="product-details text-center">
-                                                            <div className="product-name"><a className="fw-normal" href="product-layout1.html">Gentle Monster Silver Stripe</a></div>
-                                                            <div className="product-price">
-                                                                <span className="price">$165.00</span>
-                                                            </div>
-                                                            <div className="product-review">
-                                                                <i className="icon anm anm-star"></i><i className="icon anm anm-star"></i><i className="icon anm anm-star"></i><i className="icon anm anm-star"></i><i className="icon anm anm-star"></i>
-                                                                <span className="caption hidden ms-1">13 Reviews</span>
-                                                            </div>
-                                                        </div>
-                                                    
-                                                    </div>
-                                                </div>
-                                                <div className="item">
-                                                    <div className="product-wrap position-relative">
-                                                    
-                                                        <div className="product-image mb-0">
-                                                            <a href="product-layout1.html" className="product-img"><img className="blur-up lazyload" data-src="assets/images/products/500x500.jpg" src="assets/images/products/500x500.jpg" alt="product" title="Product" width="500" height="500" /></a>
-                                                        </div>
-                                                    
-                                                        <div className="product-details text-center">
-                                                            <div className="product-name"><a className="fw-normal" href="product-layout1.html">Gucci Beige Thick Acetate</a></div>
-                                                            <div className="product-price">
-                                                                <span className="price">$153.00</span>
-                                                            </div>
-                                                            <div className="product-review">
-                                                                <i className="icon anm anm-star"></i><i className="icon anm anm-star"></i><i className="icon anm anm-star"></i><i className="icon anm anm-star-o"></i><i className="icon anm anm-star-o"></i>
-                                                                <span className="caption hidden ms-1">17 Reviews</span>
-                                                            </div>
-                                                        </div>
-                                                    
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            </ul>
                                         </li>
                                     </ul>
                                 </div>
@@ -241,141 +191,25 @@ if(!categories){
             
                 <div className="col-8 col-sm-8 col-md-8 col-lg-3 align-self-center icons-col text-right">
                 
-                    <div className="search-parent iconset">
-                        <div className="site-search" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Search">
-                            <a href="#;" className="search-icon clr-none" data-bs-toggle="offcanvas" data-bs-target="#search-drawer"><i className="hdr-icon icon anm anm-search-l"></i></a>
-                        </div>
-                        <div className="search-drawer offcanvas offcanvas-top" tabIndex="-1" id="search-drawer">
-                            <div className="container">
-                                <div className="search-header d-flex-center justify-content-between mb-3">
-                                    <h3 className="title m-0">What are you looking for?</h3>
-                                    <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                                </div>
-                                <div className="search-body">
-                                    <form className="form minisearch" id="header-search" action="#" method="get">
-                                    
-                                        <div className="d-flex searchField">
-                                            <div className="search-category">
-                                                <select className="rgsearch-category rounded-end-0">
-                                                    <option value="0">All Categories</option>
-                                                    <option value="1">- All</option>
-                                                    <option value="2">- Fashion</option>
-                                                    <option value="3">- Shoes</option>
-                                                    <option value="4">- Electronic</option>
-                                                    <option value="5">- Jewelry</option>
-                                                    <option value="6">- Vegetables</option>
-                                                    <option value="7">- Furniture</option>
-                                                    <option value="8">- Accessories</option>
-                                                </select>
-                                            </div>
-                                            <div className="input-box d-flex fl-1">
-                                                <input type="text" defaultValue="Default Value" className="input-text border-start-0 border-end-0" placeholder="Search for products..."  />
-                                                <button type="submit" className="action search d-flex-justify-center btn btn-primary rounded-start-0"><i className="icon anm anm-search-l"></i></button>
-                                            </div>
-                                        </div>
-                                        
-                                        <div className="popular-searches d-flex-justify-center mt-3">
-                                            <span className="title fw-600">Trending Now:</span>
-                                            <div className="d-flex-wrap searches-items">
-                                                <a className="text-link ms-2" href="#">Gold,</a>
-                                                <a className="text-link ms-2" href="#">Silver,</a>
-                                                <a className="text-link ms-2" href="#">Sunglasses</a>
-                                            </div>
-                                        </div>
-                                        
-                                        <div className="search-products">
-                                            <ul className="items g-2 g-md-3 row row-cols-lg-4 row-cols-md-3 row-cols-sm-2">
-                                                <li className="item empty w-100 text-center text-muted d-none">You don't have any items in your search.</li>
-                                                <li className="item">                                                       
-                                                    <div className="mini-list-item d-flex align-items-center w-100 clearfix">
-                                                        <div className="mini-image text-center"><a className="item-link" href="product-layout1.html"><img className="blur-up lazyload" data-src="assets/images/products/120x170.jpg" src="assets/images/products/120x170.jpg" alt="image" title="product" width="120" height="170" /></a></div>
-                                                        <div className="ms-3 details text-left">
-                                                            <div className="product-name"><a className="item-title" href="product-layout1.html">Gentle Monster Gold Red</a></div>
-                                                            <div className="product-price"><span className="old-price">$114.00</span><span className="price">$99.00</span></div>
-                                                            <div className="product-review d-flex align-items-center justify-content-start">
-                                                                <i className="icon anm anm-star"></i><i className="icon anm anm-star"></i><i className="icon anm anm-star"></i><i className="icon anm anm-star-o"></i><i className="icon anm anm-star-o"></i>
-                                                                <span className="caption hidden ms-2">3 reviews</span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="item">
-                                                    <div className="mini-list-item d-flex align-items-center w-100 clearfix">
-                                                        <div className="mini-image text-center"><a className="item-link" href="product-layout1.html"><img className="blur-up lazyload" data-src="assets/images/products/120x170.jpg" src="assets/images/products/120x170.jpg" alt="image" title="product" width="120" height="170" /></a></div>
-                                                        <div className="ms-3 details text-left">
-                                                            <div className="product-name"><a className="item-title" href="product-layout1.html">Gentle Monster Silver Stripe</a></div>
-                                                            <div className="product-price"><span className="price">$128.00</span></div>
-                                                            <div className="product-review d-flex align-items-center justify-content-start">
-                                                                <i className="icon anm anm-star"></i><i className="icon anm anm-star"></i><i className="icon anm anm-star"></i><i className="icon anm anm-star"></i><i className="icon anm anm-star"></i>
-                                                                <span className="caption hidden ms-2">9 reviews</span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="item">
-                                                    <div className="mini-list-item d-flex align-items-center w-100 clearfix">
-                                                        <div className="mini-image text-center"><a className="item-link" href="product-layout1.html"><img className="blur-up lazyload" data-src="assets/images/products/120x170.jpg" src="assets/images/products/120x170.jpg" alt="image" title="product" width="120" height="170" /></a></div>
-                                                        <div className="ms-3 details text-left">
-                                                            <div className="product-name"><a className="item-title" href="product-layout1.html">Gucci Beige Thick Acetate</a></div>
-                                                            <div className="product-price"><span className="price">$99.00</span></div>
-                                                            <div className="product-review d-flex align-items-center justify-content-start">
-                                                                <i className="icon anm anm-star"></i><i className="icon anm anm-star"></i><i className="icon anm anm-star"></i><i className="icon anm anm-star"></i><i className="icon anm anm-star-o"></i>
-                                                                <span className="caption hidden ms-2">30 reviews</span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        
-                                    </form>
-                                </div>
-                            </div>
+                   
+                <div className="wishlist-link iconset" title="Wishlist"><Link to="/cart"><i className="hdr-icon icon anm anm-bag-l"></i><span className="wishlist-count">{shoppingCart.length}</span></Link></div>
+                    
+                <div className="account-parent iconset">
+                    <div className="account-link" title="Account"><i className="hdr-icon icon anm anm-user-al"></i></div>
+                    <div id="accountBox">
+                        <div className="customer-links">
+                            <ul className="m-0">
+                            {user?<li><Link onClick={logoutHandler}> <i className="icon anm anm-sign-out-al"></i>Logout</Link></li>:
+                                <li><Link method="get" to="/login"> <i className="icon anm anm-sign-in-al"></i>Login</Link></li>}
+                                <li><a href="register.html"><i className="icon anm anm-user-al"></i>Register</a></li>
+                                <li><a href="my-account.html"><i className="icon anm anm-user-cil"></i>My Account</a></li>                            
+                            </ul>
                         </div>
                     </div>
+                </div>
                     
-                    <div className="setting-parent iconset">
-                        <div className="setting-link" title="Setting"><i className="hdr-icon icon anm anm-cog-l"></i></div>
-                        <div id="settingsBox">
-                            <div className="currency-picker mb-2">
-                                <span className="ttl">Select Currency</span>
-                                <ul id="currencies" className="cnrLangList">
-                                    <li className="selected"><a href="#;" className="active">INR</a></li><li><a href="#;">GBP</a></li><li><a href="#;">CAD</a></li><li><a href="#;">USD</a></li><li><a href="#;">AUD</a></li><li><a href="#;">EUR</a></li><li><a href="#;">JPY</a></li>
-                                </ul>
-                            </div>
-                            <div className="language-picker">
-                                <span className="ttl">Select Language</span>
-                                <ul id="language" className="cnrLangList">
-                                    <li><a href="#" className="active">English</a></li><li><a href="#">French</a></li><li><a href="#">German</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                   
                     
-                    <div className="account-parent iconset">
-                        <div className="account-link" title="Account"><i className="hdr-icon icon anm anm-user-al"></i></div>
-                        <div id="accountBox">
-                            <div className="customer-links">
-                                <ul className="m-0">
-                                {user?<li><Link onClick={logoutHandler}> <i className="icon anm anm-sign-out-al"></i>Logout</Link></li>:
-                                    <li><Link method="get" to="/login"> <i className="icon anm anm-sign-in-al"></i>Login</Link></li>}
-
-                                    <li><a href="login.html"><i className="icon anm anm-sign-in-al"></i>Sign In</a></li>
-                                    <li><a href="register.html"><i className="icon anm anm-user-al"></i>Register</a></li>
-                                    <li><a href="my-account.html"><i className="icon anm anm-user-cil"></i>My Account</a></li>
-                                    <li><a href="wishlist-style1.html"><i className="icon anm anm-heart-l"></i>Wishlist</a></li>
-                                    <li><a href="compare-style1.html"><i className="icon anm anm-random-r"></i>Compare</a></li>
-                                    <li><a href="login.html"><i className="icon anm anm-sign-out-al"></i>Sign out</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div className="wishlist-link iconset" title="Wishlist"><Link to="/cart"><i className="hdr-icon icon anm anm-heart-l"></i><span className="wishlist-count">{shoppingCart.length}</span></Link></div>
-                    
-                    <div className="header-cart iconset" title="Cart">
-                        <a href="#;" className="header-cart btn-minicart clr-none" data-bs-toggle="offcanvas" data-bs-target="#minicart-drawer"><i className="hdr-icon icon anm anm-bag-l"></i><span className="cart-count">2</span></a>
-                    </div>
                     
                     <button type="button" onClick={handleMobileNavToggle} className="iconset pe-0 menu-icon js-mobile-nav-toggle mobile-nav--open d-lg-none" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Menu"><i className="hdr-icon icon anm anm-times-l"></i><i className="hdr-icon icon anm anm-bars-r"></i></button>
                     

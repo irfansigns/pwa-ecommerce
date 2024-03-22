@@ -19,6 +19,7 @@ const Shop =(props)=>{
 
     useEffect(() => {
         if (params.code) {
+            setLoading(true);
             axios.get(AppURL.Categories(params.code))
                 .then(response => {
                     dispatch({ type: 'ADD_MORE_PRODUCTS', payload: response.data });
@@ -27,7 +28,7 @@ const Shop =(props)=>{
                 })
                 .catch(error => console.error("Failed to fetch more products:", error));
         }
-    }, [params.code]);
+    }, [params]);
   
 
     useEffect(() => {
@@ -39,7 +40,7 @@ const Shop =(props)=>{
             setItems(newProducts);
             
         }
-    }, [loading, params]);
+    }, [loading]);
 
     
 
