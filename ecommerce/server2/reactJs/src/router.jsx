@@ -1,17 +1,35 @@
 import {createBrowserRouter} from 'react-router-dom';
 import Login from './views/login.jsx';
 import Register from './views/register.jsx';
-
+import DefaultLayout from './Components/DefaultLayout.jsx';
+import GuestLayout from './Components/GuestLayout.jsx';
+import Users from './views/users.jsx';
 
 const router = createBrowserRouter ([
     // array of objects. here objects are routes. element name shouldn't be started with small letter
     {
-        path:'/login',
-        element: <Login />,       
+        path: '/',
+        element: <DefaultLayout />,
+        children: [
+            {
+                path: '/users',
+                element: <Users />,
+            },
+        ]
     },
     {
-        path:'/register',
-        element: <Register />,       
+        path: '/',
+        element: <GuestLayout />,
+        children: [
+            {
+                path: '/login',
+                element: <Login />,
+            },
+            {
+                path: '/register',
+                element:  <Register />,
+            }
+        ]
     },
 ]);
 
