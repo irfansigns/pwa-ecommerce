@@ -27,4 +27,20 @@ axiosClient.interceptors.response.use(
     }
 );
 
+axiosClient.Images = "http://localhost:8000/storage/img/";
+
+
+axiosClient.getProducts = function () {
+    return this.get('/products');
+};
+
+axiosClient.MegaSlider = function (code) {
+    return this.get(`/sliderImages/${code}`);
+};
+
+//Framework
+// axiosClient.getProductDetails = function (code) {
+//     return this.get(`/productDetails/${code}`);
+// };
+
 export default axiosClient;
