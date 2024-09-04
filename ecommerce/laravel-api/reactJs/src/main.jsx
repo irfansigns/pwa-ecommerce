@@ -9,8 +9,9 @@ import CartContextProvider from './context/cartContext.jsx'
 import ProductContextProvider from './context/productContext.jsx'
 
 // Import global stylesheets
-import './assets/css/style.css';
+
 import './assets/css/plugins.css';
+import './assets/css/style.css';
 import './assets/css/responsive.css';
 import './assets/css/cascade.css';
 
