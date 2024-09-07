@@ -38,6 +38,14 @@ axiosClient.MegaSlider = function (code) {
     return this.get(`/sliderImages/${code}`);
 };
 
+axiosClient.Categories = function (code) {
+    return this.get(`/shop/${code}`);
+};
+
+axiosClient.shop = function (code){
+    return this.get('/shop')
+}
+
 //Framework
 // axiosClient.getProductDetails = function (code) {
 //     return this.get(`/productDetails/${code}`);

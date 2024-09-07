@@ -62,7 +62,7 @@ if(!categories){
     )
   }else{
     const brands = categories.map((cats,key)=>{
-      if(cats.dept==2){
+      if(cats.dept=='2'){
       return (
         <li className="lvl-2"><Link to={'/shop/'+ cats.id } className="site-nav lvl-2">{cats.cname}</Link></li>
         // <li className="lvl1 more-item"><Link to={'/shop/'+ cats.id } className="site-nav">{cats.cname} <span className="count">(14)</span></Link></li>
@@ -218,7 +218,9 @@ if(!categories){
             {/* Logo */}
             <div className="logo col-4 col-sm-4 col-md-4 col-lg-3 col-xxl-3 align-self-center">
               
-              <Link className="logoImg" to="/"><img src={axiosClient.Images+'/logo/logo.png'} alt="Hema Multipurpose Html Template" title="Hema Multipurpose Html Template" width="149" height="39" /></Link>
+              <Link className="logoImg" to="/">
+              <img src={axiosClient.Images+'/logo/logo.png'} alt="Hema Multipurpose Html Template" title="Hema Multipurpose Html Template" width="149" height="39" />
+              </Link> 
             </div>
             {/* End Logo */}
             {/* Search Inline */}

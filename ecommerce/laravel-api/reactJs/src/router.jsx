@@ -4,6 +4,7 @@ import Register from './views/register.jsx';
 import HomePage from './views/HomePage.jsx';
 import DefaultLayout from './Components/DefaultLayout.jsx';
 import GuestLayout from './Components/GuestLayout.jsx';
+import Shop from './views/Shop.jsx';
 import Users from './views/users.jsx';
 
 const router = createBrowserRouter ([
@@ -15,6 +16,10 @@ const router = createBrowserRouter ([
             {
                 path: '/',
                 element: <HomePage />,
+            },
+            {
+                path: '/shop/:code?',  // Add optional parameter 'categoryId'
+                element: <Shop />,
             },
         ]
     },
