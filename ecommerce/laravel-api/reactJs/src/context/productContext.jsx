@@ -22,6 +22,7 @@ const ProductContextProvider = ({ children }) => {
         axiosClient.shop()
             .then(response => {
                 setCategories(response.data);
+                // Returns full detail of categories 
             });
     }, []);
 

@@ -44,6 +44,7 @@ axiosClient.Categories = function (code) {
 
 axiosClient.shop = function (code){
     return this.get('/shop')
+    //Returns full detail of Categories
 }
 
 //Framework

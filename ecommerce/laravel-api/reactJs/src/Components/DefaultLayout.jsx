@@ -6,7 +6,7 @@ import axiosClient from '../axiosClient';
 
 const DefaultLayout =()=>{
 
-  const {dispatch,shoppingCart,user} = useContext(cartContext);
+  const {dispatch,shoppingCart,qty,user} = useContext(cartContext);
   const [logout,setLogout] = useState(false);
   const {products} = useContext(productContext);
   const {categories} = useContext(productContext);
@@ -20,6 +20,8 @@ const DefaultLayout =()=>{
   // To redirect, use:
   navigate('/');
   }
+
+  console.log(shoppingCart);
 
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
 
@@ -432,7 +434,7 @@ if(!categories){
                 <a href="#;" className="header-cart btn-minicart icon-link d-flex flex-column" data-bs-toggle="offcanvas" data-bs-target="#minicart-drawer">
                   <span className="iconCot">
                     <i className="hdr-icon icon anm anm-bag-l"></i>
-                    <span className="cart-count">2</span>
+                    <span className="cart-count">{qty}</span>
                   </span>
                   <span className="text">My Cart</span>
                 </a>
