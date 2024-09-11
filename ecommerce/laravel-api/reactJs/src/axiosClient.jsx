@@ -47,6 +47,13 @@ axiosClient.shop = function (code){
     //Returns full detail of Categories
 }
 
+axiosClient.shop = function (code){
+    return this.get(`/productdetails/${code}`)
+    //Returns full detail of product
+}
+
+ 
+
 //Framework
 // axiosClient.getProductDetails = function (code) {
 //     return this.get(`/productDetails/${code}`);
