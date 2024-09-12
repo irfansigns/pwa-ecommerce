@@ -6,6 +6,7 @@ import DefaultLayout from './Components/DefaultLayout.jsx';
 import GuestLayout from './Components/GuestLayout.jsx';
 import Shop from './views/Shop.jsx';
 import ProductDetails from './views/ProductDetails.jsx';
+import CartPage from './views/CartPage.jsx';
 import Users from './views/users.jsx';
 
 const router = createBrowserRouter ([
@@ -23,8 +24,12 @@ const router = createBrowserRouter ([
                 element: <Shop />,
             },
             {
-                path: '/details/:code',  // Add optional parameter 'categoryId'
+                path: '/details/:code',  
                 element: <ProductDetails />,
+            },
+            {
+                path: '/cart', 
+                element: <CartPage />,
             },
         ]
     },

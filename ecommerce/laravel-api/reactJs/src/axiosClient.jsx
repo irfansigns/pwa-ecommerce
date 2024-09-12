@@ -44,15 +44,19 @@ axiosClient.Categories = function (code) {
 
 axiosClient.shop = function (code){
     return this.get('/shop')
-    //Returns full detail of Categories
 }
 
-axiosClient.shop = function (code){
+axiosClient.productDetails = function (code){
     return this.get(`/productdetails/${code}`)
-    //Returns full detail of product
 }
 
- 
+axiosClient.storeOrder = function (data) {
+    return this.post('/storeOrder', data, {
+        headers: { "Content-Type": "application/json" }
+    });
+}
+
+// static storeOrder = this.BaseURL + "storeOrder";
 
 //Framework
 // axiosClient.getProductDetails = function (code) {

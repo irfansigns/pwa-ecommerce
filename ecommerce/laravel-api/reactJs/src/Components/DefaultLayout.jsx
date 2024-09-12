@@ -431,13 +431,13 @@ if(!categories){
               {/* End Wishlist */}
               {/* Minicart */}
               <div className="header-cart iconset">
-                <a href="#;" className="header-cart btn-minicart icon-link d-flex flex-column" data-bs-toggle="offcanvas" data-bs-target="#minicart-drawer">
+                <Link to="/cart" className="header-cart btn-minicart icon-link d-flex flex-column" data-bs-toggle="offcanvas" data-bs-target="#minicart-drawer">
                   <span className="iconCot">
                     <i className="hdr-icon icon anm anm-bag-l"></i>
                     <span className="cart-count">{qty}</span>
                   </span>
                   <span className="text">My Cart</span>
-                </a>
+                </Link>
               </div>
               {/* End Minicart */}
               {/* Mobile Toggle */}

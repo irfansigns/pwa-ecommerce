@@ -968,7 +968,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Shirt Style 1',
                         'price' => 2600,
                         'qty' => 20,
-                        'i_path' => '/ladiesShirts/1.jpg',
+                        'i_path' => '/Ladies Shirts/1.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -977,7 +977,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Shirt Style 2',
                         'price' => 2600,
                         'qty' => 20,
-                        'i_path' => '/ladiesShirts/2.jpg',
+                        'i_path' => '/Ladies Shirts/2.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -986,7 +986,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Shirt Style 3',
                         'price' => 2600,
                         'qty' => 20,
-                        'i_path' => '/ladiesShirts/3.jpg',
+                        'i_path' => '/Ladies Shirts/3.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -995,7 +995,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Shirt Style 4',
                         'price' => 2600,
                         'qty' => 20,
-                        'i_path' => '/ladiesShirts/4.jpg',
+                        'i_path' => '/Ladies Shirts/4.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1004,7 +1004,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Shirt Style 5',
                         'price' => 2600,
                         'qty' => 20,
-                        'i_path' => '/ladiesShirts/5.jpg',
+                        'i_path' => '/Ladies Shirts/5.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1013,7 +1013,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Shirt Style 6',
                         'price' => 2600,
                         'qty' => 20,
-                        'i_path' => '/ladiesShirts/6.jpg',
+                        'i_path' => '/Ladies Shirts/6.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1022,7 +1022,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Shirt Style 7',
                         'price' => 2600,
                         'qty' => 20,
-                        'i_path' => '/ladiesShirts/7.jpg',
+                        'i_path' => '/Ladies Shirts/7.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1031,7 +1031,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Shirt Style 8',
                         'price' => 2600,
                         'qty' => 20,
-                        'i_path' => '/ladiesShirts/8.jpg',
+                        'i_path' => '/Ladies Shirts/8.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
