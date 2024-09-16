@@ -8,8 +8,14 @@ import { ContextProvider } from './context/ContextProvider.jsx'
 import CartContextProvider from './context/cartContext.jsx'
 import ProductContextProvider from './context/productContext.jsx'
 
-// Import global stylesheets
 
+// import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'bootstrap/dist/js/bootstrap.bundle.js';
+
+
+
+
+// Import global stylesheets
 import './assets/css/plugins.css';
 import './assets/css/style.css';
 import './assets/css/responsive.css';

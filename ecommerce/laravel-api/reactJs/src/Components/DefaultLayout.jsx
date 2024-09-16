@@ -1,4 +1,4 @@
-import React, {useContext , useState } from 'react'
+import React, {useContext , useState, useEffect } from 'react'
 import {Link, useNavigate , Outlet} from "react-router-dom";
 import { productContext } from "../context/productContext"
 import { cartContext } from "../context/cartContext";
@@ -10,6 +10,23 @@ const DefaultLayout =()=>{
   const [logout,setLogout] = useState(false);
   const {products} = useContext(productContext);
   const {categories} = useContext(productContext);
+
+  useEffect(() => {
+    // Define your event listener function
+    const handleClick = (event) => {
+      console.log('Element clicked!', event);
+    };
+
+    // Add the event listener when the component mounts
+    document.getElementById('testingg').addEventListener('click', handleClick);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      document.getElementById('testingg').removeEventListener('click', handleClick);
+    };
+  }, []); // Empty dependency array ensures this runs only once
+
+
   const logoutHandler = () => {
     setLogout(true);
   }
@@ -431,7 +448,7 @@ if(!categories){
               {/* End Wishlist */}
               {/* Minicart */}
               <div className="header-cart iconset">
-                <Link to="/cart" className="header-cart btn-minicart icon-link d-flex flex-column" data-bs-toggle="offcanvas" data-bs-target="#minicart-drawer">
+                <Link to="/cart" id="testingg" className="header-cart btn-minicart icon-link d-flex flex-column" data-bs-toggle="offcanvas" data-bs-target="#minicart-drawer">
                   <span className="iconCot">
                     <i className="hdr-icon icon anm anm-bag-l"></i>
                     <span className="cart-count">{qty}</span>
