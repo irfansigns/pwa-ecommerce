@@ -10,7 +10,10 @@ import ProductContextProvider from './context/productContext.jsx'
 
 
 // import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import 'bootstrap/dist/js/bootstrap.bundle.js';
+// import 'bootstrap/dist/js/bootstrap.bundle.js';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 

@@ -11,20 +11,6 @@ const DefaultLayout =()=>{
   const {products} = useContext(productContext);
   const {categories} = useContext(productContext);
 
-  useEffect(() => {
-    // Define your event listener function
-    const handleClick = (event) => {
-      console.log('Element clicked!', event);
-    };
-
-    // Add the event listener when the component mounts
-    document.getElementById('testingg').addEventListener('click', handleClick);
-
-    // Clean up the event listener when the component unmounts
-    return () => {
-      document.getElementById('testingg').removeEventListener('click', handleClick);
-    };
-  }, []); // Empty dependency array ensures this runs only once
 
 
   const logoutHandler = () => {
@@ -98,6 +84,17 @@ if(!categories){
 
     const arts = categories
     .filter(mcat => mcat.dept == '3') // Filter categories where dept is '3'
+    .slice(0, 12) // Take only the first 10 items
+    .map((mcat, key) => { // Map over these 10 items
+        return (
+        <li className="lvl-2">
+            <Link to={'/shop/' + mcat.id} className="site-nav lvl-2">{mcat.cname}</Link>
+        </li>
+        );
+    });
+
+    const kids = categories
+    .filter(mcat => mcat.dept == '5') // Filter categories where dept is '3'
     .slice(0, 12) // Take only the first 10 items
     .map((mcat, key) => { // Map over these 10 items
         return (
@@ -483,71 +480,9 @@ if(!categories){
               <nav className="navigation" id="AccessibleNav">
                 <ul id="siteNav" className="site-nav medium left">
                   <li className="lvl1 parent dropdown">
-                    <a href="#">
-                      Home <i className="icon anm anm-angle-down-l"></i>
-                    </a>
-                    <ul className="dropdown">
-                      <li>
-                        <a href="index.html" className="site-nav lvl-2">
-                          Home 01 - Fashion
-                        </a>
-                      </li>
-                      <li>
-                        <a href="index2-footwear.html" className="site-nav lvl-2">
-                          Home 02 - Footwear
-                        </a>
-                      </li>
-                      <li>
-                        <a href="index3-bags.html" className="site-nav lvl-2">
-                          Home 03 - Bags
-                        </a>
-                      </li>
-                      <li>
-                        <a href="index4-electronic.html" className="site-nav lvl-2">
-                          Home 04 - Electronic
-                        </a>
-                      </li>
-                      <li>
-                        <a href="index5-tools-parts.html" className="site-nav lvl-2">
-                          Home 05 - Tools &amp; Parts
-                        </a>
-                      </li>
-                      <li>
-                        <a href="index6-jewelry.html" className="site-nav lvl-2">
-                          Home 06 - Jewelry
-                        </a>
-                      </li>
-                      <li>
-                        <a href="index7-organic-food.html" className="site-nav lvl-2">
-                          Home 07 - Organic Food
-                        </a>
-                      </li>
-                      <li>
-                        <a href="index8-cosmetics.html" className="site-nav lvl-2">
-                          Home 08 - Cosmetics
-                        </a>
-                      </li>
-                      <li>
-                        <a href="index9-furniture.html" className="site-nav lvl-2">
-                          Home 09 - Furniture
-                        </a>
-                      </li>
-                      <li>
-                        <a href="index10-sunglasses.html" className="site-nav lvl-2">
-                          Home 10 - Sunglasses
-                        </a>
-                      </li>
-                      <li>
-                        <a href="index11-medical.html" className="site-nav lvl-2">
-                          Home 11 - Medical
-                        </a>
-                      </li>
-                      <li>
-                        <a href="index12-christmas.html" className="site-nav lvl-2">
-                          Home 12 - Christmas
-                        </a>
-                      </li>
-                    </ul>
+                    <Link to="/">
+                      Home
+                    </Link>
                   </li>
                   <li className="lvl1 parent megamenu">
                     <a href="#">
@@ -579,30 +514,13 @@ if(!categories){
                             {brands}
                           </ul>
                         </li>
-                        <li className="lvl-1 col-md-3 col-lg-3 w-34 banner-col">
-                          <div className="banner-wrap">
-                            <a href="shop-left-sidebar.html">
-                              <img className="rounded-5 blur-up lazyload" data-src="assets/images/megamenu/demo5-banner-menu.jpg" src="assets/images/megamenu/demo5-banner-menu.jpg" alt="banner" width="500" height="600" />
-                            </a>
-                            <div className="banner-content">
-                              <h4>Hot deals</h4>
-                              <h3>
-                                Don't miss <br />
-                                Trending
-                              </h3>
-                              <div className="banner-save text-primary">Save to 50%</div>
-                              <div className="banner-btn">
-                                <a href="shop-left-sidebar.html" className="btn btn-primary">
-                                  Shop now
-                                </a>
-                              </div>
-                            </div>
-                            <div className="banner-discount">
-                              <h3>
-                                <span>50%</span> Off
-                              </h3>
-                            </div>
-                          </div>
+                        <li className="lvl-1 col-md-3 col-lg-3 w-22">
+                          <a href="#;" className="site-nav lvl-1 menu-title">
+                            Kids
+                          </a>
+                          <ul className="subLinks">
+                            {kids}
+                          </ul>
                         </li>
                       </ul>
                     </div>

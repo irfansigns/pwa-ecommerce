@@ -27,3 +27,4 @@ Route::get('/relatedProduct/{id}',[ProductController::class, 'relatedProducts'])
 Route::post('/storeOrder',[ProductController::class, 'storeOrder']);
 Route::get('/shop', [ProductController::class, 'shopMain']);
 Route::get('/shop/{id}', [ProductController::class, 'shopCategory']);
+Route::get('/brands/{id}', [ProductController::class, 'brandSearch']);

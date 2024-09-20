@@ -205,6 +205,16 @@ const Shop =(props)=>{
                                 </ul>
                             </div>
                         </div>
+                        <div className="sidebar-widget clearfix categories filterBox filter-widget">
+                            <div className="widget-title">
+                                <h2>Categories</h2>
+                            </div>
+                            <div className="widget-content filterDD">
+                                <ul className="sidebar-categories scrollspy morelist clearfix">
+                                {arts}
+                                </ul>
+                            </div>
+                        </div>
                         <div className="sidebar-widget static-banner p-0">
                             <a href="shop-left-sidebar.html">
                                 <img

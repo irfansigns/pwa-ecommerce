@@ -47,7 +47,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Air Buds With Torch',
                         'price' => 1200,
                         'qty' => 20,
-                        'i_path' => 'accessories/airTorch.jpg',
+                        'i_path' => 'Accessories/airTorch.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['avCable.jpg', 'blueHandsfree.jpg','airTorch.jpg']
@@ -57,7 +57,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'AV Cable',
                         'price' => 300,
                         'qty' => 20,
-                        'i_path' => 'accessories/avCable.jpg',
+                        'i_path' => 'Accessories/avCable.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['avCable.jpg', 'blueHandsfree.jpg','airTorch.jpg']
@@ -67,7 +67,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Flexible Handsfree',
                         'price' => 500,
                         'qty' => 20,
-                        'i_path' => 'accessories/blueHandsfree.jpg',
+                        'i_path' => 'Accessories/blueHandsfree.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['avCable.jpg', 'blueHandsfree.jpg','airTorch.jpg']
@@ -78,7 +78,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Bullet Buds',
                         'price' => 1400,
                         'qty' => 20,
-                        'i_path' => 'accessories/bulletBuds.jpg',
+                        'i_path' => 'Accessories/bulletBuds.jpg',
                         'featured' => 'true',
                         'description_id' => '',
                         'images' => ['avCable.jpg', 'blueHandsfree.jpg','airTorch.jpg']
@@ -88,7 +88,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Desktop Mic',
                         'price' => 2500,
                         'qty' => 20,
-                        'i_path' => 'accessories/desktopMic.jpg',
+                        'i_path' => 'Accessories/desktopMic.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['avCable.jpg', 'blueHandsfree.jpg','airTorch.jpg']
@@ -98,7 +98,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => '360 Headphone',
                         'price' => 4000,
                         'qty' => 20,
-                        'i_path' => 'accessories/foldableHead.jpg',
+                        'i_path' => 'Accessories/foldableHead.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['avCable.jpg', 'blueHandsfree.jpg','airTorch.jpg']
@@ -108,7 +108,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Laser Buds',
                         'price' => 3299,
                         'qty' => 20,
-                        'i_path' => 'accessories/laserBuds.jpg',
+                        'i_path' => 'Accessories/laserBuds.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['avCable.jpg', 'blueHandsfree.jpg','airTorch.jpg']
@@ -120,7 +120,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'L Shaped Stand',
                         'price' => 2200,
                         'qty' => 20,
-                        'i_path' => 'accessories/lStand.jpg',
+                        'i_path' => 'Accessories/lStand.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['avCable.jpg', 'blueHandsfree.jpg','airTorch.jpg']
@@ -130,7 +130,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Camera with Mic',
                         'price' => 4400,
                         'qty' => 20,
-                        'i_path' => 'accessories/micCam.jpg',
+                        'i_path' => 'Accessories/micCam.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['avCable.jpg', 'blueHandsfree.jpg','airTorch.jpg']
@@ -139,7 +139,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Laser Air Buds',
                         'price' => 100,
                         'qty' => 20,
-                        'i_path' => 'accessories/laserBuds1.jpg',
+                        'i_path' => 'Accessories/laserBuds1.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['avCable.jpg', 'blueHandsfree.jpg','airTorch.jpg']
@@ -149,7 +149,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Movo Black Mic',
                         'price' => 3300,
                         'qty' => 20,
-                        'i_path' => 'accessories/movoBlack.jpg',
+                        'i_path' => 'Accessories/movoBlack.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['avCable.jpg', 'blueHandsfree.jpg','airTorch.jpg']
@@ -160,7 +160,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => '3 in 1 Headphone',
                         'price' => 100,
                         'qty' => 20,
-                        'i_path' => 'accessories/threeMic.jpg',
+                        'i_path' => 'Accessories/threeMic.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['avCable.jpg', 'blueHandsfree.jpg','airTorch.jpg']
@@ -170,7 +170,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Single Mic',
                         'price' => 100,
                         'qty' => 20,
-                        'i_path' => 'accessories/singleMic.jpg',
+                        'i_path' => 'Accessories/singleMic.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['avCable.jpg', 'blueHandsfree.jpg','airTorch.jpg']
@@ -180,7 +180,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'L Shaped White Stand',
                         'price' => 100,
                         'qty' => 20,
-                        'i_path' => 'accessories/whileLstand.jpg',
+                        'i_path' => 'Accessories/whileLstand.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['avCable.jpg', 'blueHandsfree.jpg','airTorch.jpg']
@@ -191,7 +191,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Wireless Headphones',
                         'price' => 100,
                         'qty' => 20,
-                        'i_path' => 'accessories/wirelessHead.jpg',
+                        'i_path' => 'Accessories/wirelessHead.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['avCable.jpg', 'blueHandsfree.jpg','airTorch.jpg']
@@ -201,7 +201,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'White Air Pods',
                         'price' => 100,
                         'qty' => 20,
-                        'i_path' => 'accessories/whiteAir.jpg',
+                        'i_path' => 'Accessories/whiteAir.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['avCable.jpg', 'blueHandsfree.jpg','airTorch.jpg']
@@ -210,7 +210,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Movo Mini Black',
                         'price' => 100,
                         'qty' => 20,
-                        'i_path' => 'accessories/movoMini.jpg',
+                        'i_path' => 'Accessories/movoMini.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['avCable.jpg', 'blueHandsfree.jpg','airTorch.jpg']
@@ -227,7 +227,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Almond Oil',
                         'price' => 400,
                         'qty' => 20,
-                        'i_path' => '/beauty/almondOil.jpg',
+                        'i_path' => '/Beauty/almondOil.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['beauty.jpg', 'almondOil.jpg','brush.jpg','drRashel.jpg', 'footCream.jpg','sheCrazy.jpg']
@@ -236,7 +236,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Onion Hair Oil',
                         'price' => 450,
                         'qty' => 20,
-                        'i_path' => '/beauty/beauty.jpg',
+                        'i_path' => '/Beauty/beauty.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['beauty.jpg', 'almondOil.jpg','brush.jpg','drRashel.jpg', 'footCream.jpg','sheCrazy.jpg']
@@ -245,7 +245,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Disaar Hair Care',
                         'price' => 600,
                         'qty' => 20,
-                        'i_path' => '/beauty/beauty2.jpg',
+                        'i_path' => '/Beauty/beauty2.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['beauty.jpg', 'almondOil.jpg','brush.jpg','drRashel.jpg', 'footCream.jpg','sheCrazy.jpg']
@@ -254,7 +254,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Biotin Cream',
                         'price' => 350,
                         'qty' => 20,
-                        'i_path' => '/beauty/biotin.jpg',
+                        'i_path' => '/Beauty/biotin.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['beauty.jpg', 'almondOil.jpg','brush.jpg','drRashel.jpg', 'footCream.jpg','sheCrazy.jpg']
@@ -263,7 +263,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Coconut Brush',
                         'price' => 200 ,
                         'qty' => 20,
-                        'i_path' => '/beauty/brush.jpg',
+                        'i_path' => '/Beauty/brush.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['beauty.jpg', 'almondOil.jpg','brush.jpg','drRashel.jpg', 'footCream.jpg','sheCrazy.jpg']
@@ -272,7 +272,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Mystic Oil',
                         'price' => 400,
                         'qty' => 20,
-                        'i_path' => '/beauty/mysticOil.jpg',
+                        'i_path' => '/Beauty/mysticOil.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['beauty.jpg', 'almondOil.jpg','brush.jpg','drRashel.jpg', 'footCream.jpg','sheCrazy.jpg']
@@ -281,7 +281,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Dr Rashel',
                         'price' => 500,
                         'qty' => 20,
-                        'i_path' => '/beauty/drRashel.jpg',
+                        'i_path' => '/Beauty/drRashel.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['beauty.jpg', 'almondOil.jpg','brush.jpg','drRashel.jpg', 'footCream.jpg','sheCrazy.jpg']
@@ -290,7 +290,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Brazilian Wax',
                         'price' => 1200,
                         'qty' => 20,
-                        'i_path' => '/beauty/wax.jpg',
+                        'i_path' => '/Beauty/wax.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['beauty.jpg', 'almondOil.jpg','brush.jpg','drRashel.jpg', 'footCream.jpg','sheCrazy.jpg']
@@ -299,7 +299,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Foot Cream',
                         'price' => 550,
                         'qty' => 20,
-                        'i_path' => '/beauty/footCream.jpg',
+                        'i_path' => '/Beauty/footCream.jpg',
                         'featured' => 'true',
                         'description_id' => '',
                         'images' => ['beauty.jpg', 'almondOil.jpg','brush.jpg','drRashel.jpg', 'footCream.jpg','sheCrazy.jpg']
@@ -308,7 +308,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Coconut Oil',
                         'price' => 750,
                         'qty' => 20,
-                        'i_path' => '/beauty/coconutOil.jpg',
+                        'i_path' => '/Beauty/coconutOil.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['beauty.jpg', 'almondOil.jpg','brush.jpg','drRashel.jpg', 'footCream.jpg','sheCrazy.jpg']
@@ -317,7 +317,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Gloss',
                         'price' => 200,
                         'qty' => 20,
-                        'i_path' => '/beauty/gloss.jpg',
+                        'i_path' => '/Beauty/gloss.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['beauty.jpg', 'almondOil.jpg','brush.jpg','drRashel.jpg', 'footCream.jpg','sheCrazy.jpg']
@@ -326,7 +326,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Pink Muscara',
                         'price' => 150,
                         'qty' => 20,
-                        'i_path' => '/beauty/muskara.jpg',
+                        'i_path' => '/Beauty/muskara.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['beauty.jpg', 'almondOil.jpg','brush.jpg','drRashel.jpg', 'footCream.jpg','sheCrazy.jpg']
@@ -335,7 +335,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Hair Removal',
                         'price' => 1000,
                         'qty' => 20,
-                        'i_path' => '/beauty/hairRemoval.jpg',
+                        'i_path' => '/Beauty/hairRemoval.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['beauty.jpg', 'almondOil.jpg','brush.jpg','drRashel.jpg', 'footCream.jpg','sheCrazy.jpg']
@@ -344,7 +344,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Shine Mask',
                         'price' => 400,
                         'qty' => 20,
-                        'i_path' => '/beauty/mask.jpg',
+                        'i_path' => '/Beauty/mask.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['beauty.jpg', 'almondOil.jpg','brush.jpg','drRashel.jpg', 'footCream.jpg','sheCrazy.jpg']
@@ -353,7 +353,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Komal Oil',
                         'price' => 150,
                         'qty' => 20,
-                        'i_path' => '/beauty/komalOil.jpg',
+                        'i_path' => '/Beauty/komalOil.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['beauty.jpg', 'almondOil.jpg','brush.jpg','drRashel.jpg', 'footCream.jpg','sheCrazy.jpg']
@@ -362,7 +362,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Moisturizing Cream',
                         'price' => 250 ,
                         'qty' => 20,
-                        'i_path' => '/beauty/moisturer.jpg',
+                        'i_path' => '/Beauty/moisturer.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['beauty.jpg', 'almondOil.jpg','brush.jpg','drRashel.jpg', 'footCream.jpg','sheCrazy.jpg']
@@ -371,7 +371,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Mehndi',
                         'price' => 150,
                         'qty' => 20,
-                        'i_path' => '/beauty/mehndi.jpg',
+                        'i_path' => '/Beauty/mehndi.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['beauty.jpg', 'almondOil.jpg','brush.jpg','drRashel.jpg', 'footCream.jpg','sheCrazy.jpg']
@@ -380,7 +380,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Mughziat',
                         'price' => 300,
                         'qty' => 20,
-                        'i_path' => '/beauty/mughziat.jpg',
+                        'i_path' => '/Beauty/mughziat.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['beauty.jpg', 'almondOil.jpg','brush.jpg','drRashel.jpg', 'footCream.jpg','sheCrazy.jpg']
@@ -389,7 +389,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Muscara',
                         'price' => 180,
                         'qty' => 20,
-                        'i_path' => '/beauty/muscara2.jpg',
+                        'i_path' => '/Beauty/muscara2.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['beauty.jpg', 'almondOil.jpg','brush.jpg','drRashel.jpg', 'footCream.jpg','sheCrazy.jpg']
@@ -398,7 +398,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'She Crazy',
                         'price' => 800,
                         'qty' => 20,
-                        'i_path' => '/beauty/sheCrazy.jpg',
+                        'i_path' => '/Beauty/sheCrazy.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['beauty.jpg', 'almondOil.jpg','brush.jpg','drRashel.jpg', 'footCream.jpg','sheCrazy.jpg']
@@ -414,7 +414,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Cleansing Milk ',
                         'price' => 200,
                         'qty' => 20,
-                        'i_path' => '/derma/1.jpg',
+                        'i_path' => '/Derma/1.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -423,7 +423,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Aloe Vera Gel',
                         'price' => 500,
                         'qty' => 20,
-                        'i_path' => '/derma/2.jpg',
+                        'i_path' => '/Derma/2.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -432,7 +432,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Massage Cream',
                         'price' => 200,
                         'qty' => 20,
-                        'i_path' => '/derma/3.jpg',
+                        'i_path' => '/Derma/3.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -441,7 +441,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Derma Gel',
                         'price' => 200,
                         'qty' => 20,
-                        'i_path' => '/derma/4.jpg',
+                        'i_path' => '/Derma/4.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -450,7 +450,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Derma Scrub',
                         'price' => 200,
                         'qty' => 20,
-                        'i_path' => '/derma/5.jpg',
+                        'i_path' => '/Derma/5.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -459,7 +459,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Skin Cleanser',
                         'price' => 200,
                         'qty' => 20,
-                        'i_path' => '/derma/6.jpg',
+                        'i_path' => '/Derma/6.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -468,7 +468,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Derma Skin Care',
                         'price' => 200,
                         'qty' => 20,
-                        'i_path' => '/derma/7.jpg',
+                        'i_path' => '/Derma/7.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -477,7 +477,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Black Mask',
                         'price' => 200,
                         'qty' => 20,
-                        'i_path' => '/derma/8.jpg',
+                        'i_path' => '/Derma/8.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -486,7 +486,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Facial Wash Scrub',
                         'price' => 200,
                         'qty' => 20,
-                        'i_path' => '/derma/9.jpg',
+                        'i_path' => '/Derma/9.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -495,7 +495,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Cracked Heal Cream',
                         'price' => 200,
                         'qty' => 20,
-                        'i_path' => '/derma/10.jpg',
+                        'i_path' => '/Derma/10.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -504,7 +504,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Skin Bleach Cream',
                         'price' => 200,
                         'qty' => 20,
-                        'i_path' => '/derma/11.jpg',
+                        'i_path' => '/Derma/11.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -513,7 +513,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Bleach Mask',
                         'price' => 200,
                         'qty' => 20,
-                        'i_path' => '/derma/12.jpg',
+                        'i_path' => '/Derma/12.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -522,7 +522,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Brightening Facial Mask',
                         'price' => 200,
                         'qty' => 20,
-                        'i_path' => '/derma/13.jpg',
+                        'i_path' => '/Derma/13.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -531,7 +531,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Wash & Scrub Mask',
                         'price' => 200,
                         'qty' => 20,
-                        'i_path' => '/derma/14.jpg',
+                        'i_path' => '/Derma/14.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -540,7 +540,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Foaming Facial Wash',
                         'price' => 200,
                         'qty' => 20,
-                        'i_path' => '/derma/15.jpg',
+                        'i_path' => '/Derma/15.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -549,7 +549,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Brightening Deep Cleanser',
                         'price' => 200,
                         'qty' => 20,
-                        'i_path' => '/derma/16.jpg',
+                        'i_path' => '/Derma/16.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -558,7 +558,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Pedi Scrub',
                         'price' => 200,
                         'qty' => 20,
-                        'i_path' => '/derma/17.jpg',
+                        'i_path' => '/Derma/17.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -567,7 +567,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Active Bright Face Wash',
                         'price' => 200,
                         'qty' => 20,
-                        'i_path' => '/derma/18.jpg',
+                        'i_path' => '/Derma/18.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -576,7 +576,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Sun Block Cream',
                         'price' => 200,
                         'qty' => 20,
-                        'i_path' => '/derma/19.jpg',
+                        'i_path' => '/Derma/19.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','5.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -592,7 +592,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Ladies Western Shirt',
                         'price' => 2200,
                         'qty' => 20,
-                        'i_path' => '/hos/1.jpg',
+                        'i_path' => '/Hos/1.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -602,7 +602,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Fleece Pullover',
                         'price' => 2600,
                         'qty' => 20,
-                        'i_path' => '/hos/2.jpg',
+                        'i_path' => '/Hos/2.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -611,7 +611,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Casual Jeans',
                         'price' => 1600,
                         'qty' => 20,
-                        'i_path' => '/hos/3.jpg',
+                        'i_path' => '/Hos/3.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -620,7 +620,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Ladies Long Coat',
                         'price' => 5000,
                         'qty' => 20,
-                        'i_path' => '/hos/4.jpg',
+                        'i_path' => '/Hos/4.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -629,7 +629,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Fleece Zipper',
                         'price' => 3400,
                         'qty' => 20,
-                        'i_path' => '/hos/6.jpg',
+                        'i_path' => '/Hos/6.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -638,7 +638,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Ladies Frill Shirt',
                         'price' => 2500,
                         'qty' => 20,
-                        'i_path' => '/hos/7.jpg',
+                        'i_path' => '/Hos/7.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -647,7 +647,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Long Fleece Pullover',
                         'price' => 2600,
                         'qty' => 20,
-                        'i_path' => '/hos/8.jpg',
+                        'i_path' => '/Hos/8.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -656,7 +656,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Fur Zipper',
                         'price' => 6200,
                         'qty' => 20,
-                        'i_path' => '/hos/9.jpg',
+                        'i_path' => '/Hos/9.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -665,7 +665,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Self Design Coat',
                         'price' => 5200,
                         'qty' => 20,
-                        'i_path' => '/hos/10.jpg',
+                        'i_path' => '/Hos/10.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -675,7 +675,7 @@ class DatabaseSeeder extends Seeder
 
             [
                 'cname' => 'Jewellery',
-                'dept'  => '2', // Example department
+                'dept'  => '3', // Example department
                 'products' => [
                     [
                         'pname' => 'Diamond Ring',
@@ -832,7 +832,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Pant Style 1',
                         'price' => 2500,
                         'qty' => 20,
-                        'i_path' => '/pants/1.jpg',
+                        'i_path' => '/Pants/1.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -842,7 +842,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Pant Style 2',
                         'price' => 2500,
                         'qty' => 20,
-                        'i_path' => '/pants/2.jpg',
+                        'i_path' => '/Pants/2.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -851,7 +851,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Pant Style 3',
                         'price' => 2500,
                         'qty' => 20,
-                        'i_path' => '/pants/3.jpg',
+                        'i_path' => '/Pants/3.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -860,7 +860,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Pant Style 4',
                         'price' => 2500,
                         'qty' => 20,
-                        'i_path' => '/pants/4.jpg',
+                        'i_path' => '/Pants/4.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -869,7 +869,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Pant Style 5',
                         'price' => 2500,
                         'qty' => 20,
-                        'i_path' => '/pants/5.jpg',
+                        'i_path' => '/Pants/5.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -878,7 +878,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Pant Style 6',
                         'price' => 2500,
                         'qty' => 20,
-                        'i_path' => '/pants/6.jpg',
+                        'i_path' => '/Pants/6.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -887,7 +887,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Pant Style 7',
                         'price' => 2500,
                         'qty' => 20,
-                        'i_path' => '/pants/7.jpg',
+                        'i_path' => '/Pants/7.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -896,7 +896,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Pant Style 8',
                         'price' => 2500,
                         'qty' => 20,
-                        'i_path' => '/pants/8.jpg',
+                        'i_path' => '/Pants/8.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -905,7 +905,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Pant Style 9',
                         'price' => 2500,
                         'qty' => 20,
-                        'i_path' => '/pants/9.jpg',
+                        'i_path' => '/Pants/9.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -915,7 +915,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Pant Style 10',
                         'price' => 2500,
                         'qty' => 20,
-                        'i_path' => '/pants/10.jpg',
+                        'i_path' => '/Pants/10.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -924,7 +924,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Pant Style 11',
                         'price' => 2500,
                         'qty' => 20,
-                        'i_path' => '/pants/12.jpg',
+                        'i_path' => '/Pants/12.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -933,7 +933,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Pant Style 13',
                         'price' => 2500,
                         'qty' => 20,
-                        'i_path' => '/pants/13.jpg',
+                        'i_path' => '/Pants/13.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -942,7 +942,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Pant Style 14',
                         'price' => 2500,
                         'qty' => 20,
-                        'i_path' => '/pants/14.jpg',
+                        'i_path' => '/Pants/14.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -951,7 +951,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Pant Style 15',
                         'price' => 2500,
                         'qty' => 20,
-                        'i_path' => '/pants/15.jpg',
+                        'i_path' => '/Pants/15.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1040,14 +1040,14 @@ class DatabaseSeeder extends Seeder
             ],
 
             [
-                'cname' => 'LadiesTop',
+                'cname' => 'Ladies Top',
                 'dept'  => '1', // Example department
                 'products' => [
                     [
                         'pname' => 'Ladies Western Shirt',
                         'price' => 2200,
                         'qty' => 20,
-                        'i_path' => '/hos/1.jpg',
+                        'i_path' => '/Ladies Top/1.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1057,16 +1057,17 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Fleece Pullover',
                         'price' => 2600,
                         'qty' => 20,
-                        'i_path' => '/hos/2.jpg',
+                        'i_path' => '/Ladies Top/2.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
                     ],
+                    
                     [
                         'pname' => 'Casual Jeans',
                         'price' => 1600,
                         'qty' => 20,
-                        'i_path' => '/hos/3.jpg',
+                        'i_path' => '/Ladies Top/3.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1075,7 +1076,16 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Ladies Long Coat',
                         'price' => 5000,
                         'qty' => 20,
-                        'i_path' => '/hos/4.jpg',
+                        'i_path' => '/Ladies Top/4.jpg',
+                        'featured' => 'false',
+                        'description_id' => '',
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
+                    ],
+                    [
+                        'pname' => 'Ladies Long Coat',
+                        'price' => 5900,
+                        'qty' => 20,
+                        'i_path' => '/Ladies Top/5.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1084,7 +1094,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Fleece Zipper',
                         'price' => 3400,
                         'qty' => 20,
-                        'i_path' => '/hos/6.jpg',
+                        'i_path' => '/Ladies Top/6.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1093,7 +1103,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Ladies Frill Shirt',
                         'price' => 2500,
                         'qty' => 20,
-                        'i_path' => '/hos/7.jpg',
+                        'i_path' => '/Ladies Top/7.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1102,7 +1112,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Long Fleece Pullover',
                         'price' => 2600,
                         'qty' => 20,
-                        'i_path' => '/hos/8.jpg',
+                        'i_path' => '/Ladies Top/8.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1111,7 +1121,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Fur Zipper',
                         'price' => 6200,
                         'qty' => 20,
-                        'i_path' => '/hos/9.jpg',
+                        'i_path' => '/Ladies Top/9.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1120,7 +1130,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Self Design Coat',
                         'price' => 5200,
                         'qty' => 20,
-                        'i_path' => '/hos/10.jpg',
+                        'i_path' => '/Ladies Top/10.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1130,13 +1140,13 @@ class DatabaseSeeder extends Seeder
 
             [
                 'cname' => 'Undergarments',
-                'dept'  => '2', // Example department
+                'dept'  => '3', // Example department
                 'products' => [
                     [
                         'pname' => 'Undergarments Item 1',
                         'price' => 1000,
                         'qty' => 20,
-                        'i_path' => '/undergarments/1.jpg',
+                        'i_path' => '/Undergarments/1.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1146,7 +1156,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Undergarments Item 2',
                         'price' => 1000,
                         'qty' => 20,
-                        'i_path' => '/undergarments/2.jpg',
+                        'i_path' => '/Undergarments/2.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1156,7 +1166,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Undergarments Item 3',
                         'price' => 1000,
                         'qty' => 20,
-                        'i_path' => '/undergarments/3.jpg',
+                        'i_path' => '/Undergarments/3.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1166,7 +1176,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Undergarments Item 4',
                         'price' => 1000,
                         'qty' => 20,
-                        'i_path' => '/undergarments/4.jpg',
+                        'i_path' => '/Undergarments/4.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1176,7 +1186,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Undergarments Item 5',
                         'price' => 1000,
                         'qty' => 20,
-                        'i_path' => '/undergarments/5.jpg',
+                        'i_path' => '/Undergarments/5.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1186,7 +1196,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Undergarments Item 6',
                         'price' => 1000,
                         'qty' => 20,
-                        'i_path' => '/undergarments/6.jpg',
+                        'i_path' => '/Undergarments/6.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1196,7 +1206,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Undergarments Item 7',
                         'price' => 1000,
                         'qty' => 20,
-                        'i_path' => '/undergarments/7.jpg',
+                        'i_path' => '/Undergarments/7.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1206,7 +1216,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Undergarments Item 8',
                         'price' => 1000,
                         'qty' => 20,
-                        'i_path' => '/undergarments/8.jpg',
+                        'i_path' => '/Undergarments/8.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1216,7 +1226,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Undergarments Item 9',
                         'price' => 1000,
                         'qty' => 20,
-                        'i_path' => '/undergarments/9.jpg',
+                        'i_path' => '/Undergarments/9.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1226,7 +1236,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Undergarments Item 9',
                         'price' => 1000,
                         'qty' => 20,
-                        'i_path' => '/undergarments/9.jpg',
+                        'i_path' => '/Undergarments/9.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1236,7 +1246,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Undergarments Item 10',
                         'price' => 1000,
                         'qty' => 20,
-                        'i_path' => '/undergarments/10.jpg',
+                        'i_path' => '/Undergarments/10.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1246,7 +1256,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Undergarments Item 11',
                         'price' => 1000,
                         'qty' => 20,
-                        'i_path' => '/undergarments/11.jpg',
+                        'i_path' => '/Undergarments/11.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1256,7 +1266,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Undergarments Item 12',
                         'price' => 1000,
                         'qty' => 20,
-                        'i_path' => '/undergarments/12.jpg',
+                        'i_path' => '/Undergarments/12.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1266,7 +1276,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Undergarments Item 13',
                         'price' => 1000,
                         'qty' => 20,
-                        'i_path' => '/undergarments/13.jpg',
+                        'i_path' => '/Undergarments/13.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1276,7 +1286,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Undergarments Item 14',
                         'price' => 1000,
                         'qty' => 20,
-                        'i_path' => '/undergarments/14.jpg',
+                        'i_path' => '/Undergarments/14.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1286,7 +1296,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Undergarments Item 15',
                         'price' => 1000,
                         'qty' => 20,
-                        'i_path' => '/undergarments/15.jpg',
+                        'i_path' => '/Undergarments/15.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1296,7 +1306,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Undergarments Item 16',
                         'price' => 1000,
                         'qty' => 20,
-                        'i_path' => '/undergarments/16.jpg',
+                        'i_path' => '/Undergarments/16.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1306,7 +1316,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Undergarments Item 17',
                         'price' => 1000,
                         'qty' => 20,
-                        'i_path' => '/undergarments/17.jpg',
+                        'i_path' => '/Undergarments/17.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1316,7 +1326,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Undergarments Item 18',
                         'price' => 1000,
                         'qty' => 20,
-                        'i_path' => '/undergarments/18.jpg',
+                        'i_path' => '/Undergarments/18.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1326,7 +1336,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Undergarments Item 19',
                         'price' => 1000,
                         'qty' => 20,
-                        'i_path' => '/undergarments/19.jpg',
+                        'i_path' => '/Undergarments/19.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1336,7 +1346,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Undergarments Item 20',
                         'price' => 1000,
                         'qty' => 20,
-                        'i_path' => '/undergarments/20.jpg',
+                        'i_path' => '/Undergarments/20.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1346,7 +1356,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Undergarments Item 21',
                         'price' => 1000,
                         'qty' => 20,
-                        'i_path' => '/undergarments/21.jpg',
+                        'i_path' => '/Undergarments/21.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1356,7 +1366,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Undergarments Item 22',
                         'price' => 1000,
                         'qty' => 20,
-                        'i_path' => '/undergarments/22.jpg',
+                        'i_path' => '/Undergarments/22.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1366,7 +1376,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Undergarments Item 23',
                         'price' => 1000,
                         'qty' => 20,
-                        'i_path' => '/undergarments/23.jpg',
+                        'i_path' => '/Undergarments/23.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1376,7 +1386,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Undergarments Item 24',
                         'price' => 1000,
                         'qty' => 20,
-                        'i_path' => '/undergarments/24.jpg',
+                        'i_path' => '/Undergarments/24.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1387,13 +1397,13 @@ class DatabaseSeeder extends Seeder
 
             [
                 'cname' => 'Leather',
-                'dept'  => '2', // Example department
+                'dept'  => '1', // Example department
                 'products' => [
                     [
                         'pname' => 'Leather Item 1',
                         'price' => 5000,
                         'qty' => 20,
-                        'i_path' => '/leather/1.jpg',
+                        'i_path' => '/Leather/1.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1402,7 +1412,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Leather Item 2',
                         'price' => 5000,
                         'qty' => 20,
-                        'i_path' => '/leather/2.jpg',
+                        'i_path' => '/Leather/2.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1411,7 +1421,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Leather Item 3',
                         'price' => 5000,
                         'qty' => 20,
-                        'i_path' => '/leather/3.jpg',
+                        'i_path' => '/Leather/3.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1420,7 +1430,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Leather Item 4',
                         'price' => 5000,
                         'qty' => 20,
-                        'i_path' => '/leather/4.jpg',
+                        'i_path' => '/Leather/4.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1429,7 +1439,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Leather Item 5',
                         'price' => 5000,
                         'qty' => 20,
-                        'i_path' => '/leather/5.jpg',
+                        'i_path' => '/Leather/5.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1438,7 +1448,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Leather Item 6',
                         'price' => 5000,
                         'qty' => 20,
-                        'i_path' => '/leather/6.jpg',
+                        'i_path' => '/Leather/6.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1447,7 +1457,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Leather Item 7',
                         'price' => 5000,
                         'qty' => 20,
-                        'i_path' => '/leather/7.jpg',
+                        'i_path' => '/Leather/7.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1456,7 +1466,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Leather Item 8',
                         'price' => 5000,
                         'qty' => 20,
-                        'i_path' => '/leather/8.jpg',
+                        'i_path' => '/Leather/8.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1465,14 +1475,14 @@ class DatabaseSeeder extends Seeder
             ],
 
             [
-                'cname' => 'Eastern',
-                'dept'  => '1', // Example department
+                'cname' => 'Brands',
+                'dept'  => '5', // Example department
                 'products' => [
                     [
                         'pname' => '3 Piece Embroidered',
                         'price' => 2500,
                         'qty' => 20,
-                        'i_path' => '/eastern/1000.jpg',
+                        'i_path' => '/Eastern/1000.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['1001.jpg','1002.jpg','1012.jpg','1004.jpg','1009.jpg','1008.jpg']
@@ -1481,7 +1491,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => '2 Piece Embroidered',
                         'price' => 2600,
                         'qty' => 20,
-                        'i_path' => '/eastern/1001.jpg',
+                        'i_path' => '/Eastern/1001.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['1001.jpg','1002.jpg','1012.jpg','1004.jpg','1009.jpg','1008.jpg']
@@ -1490,7 +1500,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Lawn Duppatta',
                         'price' => 2800,
                         'qty' => 20,
-                        'i_path' => '/eastern/1002.jpg',
+                        'i_path' => '/Eastern/1002.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['1001.jpg','1002.jpg','1012.jpg','1004.jpg','1009.jpg','1008.jpg']
@@ -1499,7 +1509,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Eid Collection',
                         'price' => 3200,
                         'qty' => 20,
-                        'i_path' => '/eastern/1003.jpg',
+                        'i_path' => '/Eastern/1003.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['1001.jpg','1002.jpg','1012.jpg','1004.jpg','1009.jpg','1008.jpg']
@@ -1508,7 +1518,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Patch Work',
                         'price' => 2400,
                         'qty' => 20,
-                        'i_path' => '/eastern/1004.jpg',
+                        'i_path' => '/Eastern/1004.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['1001.jpg','1002.jpg','1012.jpg','1004.jpg','1009.jpg','1008.jpg']
@@ -1517,7 +1527,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Maria B Summer Collection',
                         'price' => 2300,
                         'qty' => 20,
-                        'i_path' => '/eastern/1005.jpg',
+                        'i_path' => '/Eastern/1005.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['1001.jpg','1002.jpg','1012.jpg','1004.jpg','1009.jpg','1008.jpg']
@@ -1526,7 +1536,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Winter Collection',
                         'price' => 2500,
                         'qty' => 20,
-                        'i_path' => '/eastern/1006.jpg',
+                        'i_path' => '/Eastern/1006.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['1001.jpg','1002.jpg','1012.jpg','1004.jpg','1009.jpg','1008.jpg']
@@ -1535,7 +1545,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Chicken Embroidered',
                         'price' => 3300,
                         'qty' => 20,
-                        'i_path' => '/eastern/1007.jpg',
+                        'i_path' => '/Eastern/1007.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['1001.jpg','1002.jpg','1012.jpg','1004.jpg','1009.jpg','1008.jpg']
@@ -1544,7 +1554,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Khaddar Collection',
                         'price' => 3400,
                         'qty' => 20,
-                        'i_path' => '/eastern/1008.jpg',
+                        'i_path' => '/Eastern/1008.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['1001.jpg','1002.jpg','1012.jpg','1004.jpg','1009.jpg','1008.jpg']
@@ -1553,7 +1563,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Net Embroidered',
                         'price' => 3450,
                         'qty' => 20,
-                        'i_path' => '/eastern/1009.jpg',
+                        'i_path' => '/Eastern/1009.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['1001.jpg','1002.jpg','1012.jpg','1004.jpg','1009.jpg','1008.jpg']
@@ -1562,7 +1572,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Contrast Collection',
                         'price' => 3600,
                         'qty' => 20,
-                        'i_path' => '/eastern/1010.jpg',
+                        'i_path' => '/Eastern/1010.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['1001.jpg','1002.jpg','1012.jpg','1004.jpg','1009.jpg','1008.jpg']
@@ -1571,7 +1581,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Shiffon Duppatta',
                         'price' => 3399,
                         'qty' => 20,
-                        'i_path' => '/eastern/1011.jpg',
+                        'i_path' => '/Eastern/1011.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['1001.jpg','1002.jpg','1012.jpg','1004.jpg','1009.jpg','1008.jpg']
@@ -1580,7 +1590,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Sapphire Lawn Collection',
                         'price' => 4500,
                         'qty' => 20,
-                        'i_path' => '/eastern/1012.jpg',
+                        'i_path' => '/Eastern/1012.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['1001.jpg','1002.jpg','1012.jpg','1004.jpg','1009.jpg','1008.jpg']
@@ -1589,7 +1599,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Sana Safina Lawn',
                         'price' => 5200,
                         'qty' => 20,
-                        'i_path' => '/eastern/1013.jpg',
+                        'i_path' => '/Eastern/1013.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['1001.jpg','1002.jpg','1012.jpg','1004.jpg','1009.jpg','1008.jpg']
@@ -1598,7 +1608,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Fraz Manan',
                         'price' => 6300,
                         'qty' => 20,
-                        'i_path' => '/eastern/1014.jpg',
+                        'i_path' => '/Eastern/1014.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['1001.jpg','1002.jpg','1012.jpg','1004.jpg','1009.jpg','1008.jpg']
@@ -1607,7 +1617,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Khaddi Summer Collection',
                         'price' => 6300,
                         'qty' => 20,
-                        'i_path' => '/eastern/1016.jpg',
+                        'i_path' => '/Eastern/1016.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['1001.jpg','1002.jpg','1012.jpg','1004.jpg','1009.jpg','1008.jpg']
@@ -1623,7 +1633,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Angel Girl',
                         'price' => 1500,
                         'qty' => 20,
-                        'i_path' => '/toys/angelGirl.jpg',
+                        'i_path' => '/Toys/angelGirl.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['crain.jpg','duckWater1.jpg','helicopter.jpg','kitchen3.jpg','puzzle.jpg','tabletTen.jpg']
@@ -1632,7 +1642,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Remote Control Car',
                         'price' => 2000,
                         'qty' => 20,
-                        'i_path' => '/toys/car1.jpg',
+                        'i_path' => '/Toys/car1.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['crain.jpg','duckWater1.jpg','helicopter.jpg','kitchen3.jpg','puzzle.jpg','tabletTen.jpg']
@@ -1641,7 +1651,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Rescue Crain',
                         'price' => 2400,
                         'qty' => 20,
-                        'i_path' => '/toys/crain.jpg',
+                        'i_path' => '/Toys/crain.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['crain.jpg','duckWater1.jpg','helicopter.jpg','kitchen3.jpg','puzzle.jpg','tabletTen.jpg']
@@ -1650,7 +1660,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Duck Water',
                         'price' => 1400,
                         'qty' => 20,
-                        'i_path' => '/toys/duckWater1.jpg',
+                        'i_path' => '/Toys/duckWater1.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['crain.jpg','duckWater1.jpg','helicopter.jpg','kitchen3.jpg','puzzle.jpg','tabletTen.jpg']
@@ -1659,7 +1669,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Baby Guitar',
                         'price' => 1000,
                         'qty' => 20,
-                        'i_path' => '/toys/guitar.jpg',
+                        'i_path' => '/Toys/guitar.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['crain.jpg','duckWater1.jpg','helicopter.jpg','kitchen3.jpg','puzzle.jpg','tabletTen.jpg']
@@ -1668,7 +1678,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Helicopter',
                         'price' => 2000,
                         'qty' => 20,
-                        'i_path' => '/toys/helicopter.jpg',
+                        'i_path' => '/Toys/helicopter.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['crain.jpg','duckWater1.jpg','helicopter.jpg','kitchen3.jpg','puzzle.jpg','tabletTen.jpg']
@@ -1677,7 +1687,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Jungle King',
                         'price' => 1500,
                         'qty' => 20,
-                        'i_path' => '/toys/jungleZoo1.jpg',
+                        'i_path' => '/Toys/jungleZoo1.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['crain.jpg','duckWater1.jpg','helicopter.jpg','kitchen3.jpg','puzzle.jpg','tabletTen.jpg']
@@ -1686,7 +1696,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Kitchen Set',
                         'price' => 1600,
                         'qty' => 20,
-                        'i_path' => '/toys/kitchen3.jpg',
+                        'i_path' => '/Toys/kitchen3.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['crain.jpg','duckWater1.jpg','helicopter.jpg','kitchen3.jpg','puzzle.jpg','tabletTen.jpg']
@@ -1695,7 +1705,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Zoo Puzzle',
                         'price' => 500,
                         'qty' => 20,
-                        'i_path' => '/toys/puzzle.jpg',
+                        'i_path' => '/Toys/puzzle.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['crain.jpg','duckWater1.jpg','helicopter.jpg','kitchen3.jpg','puzzle.jpg','tabletTen.jpg']
@@ -1704,7 +1714,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Rainbow Circle',
                         'price' => 500,
                         'qty' => 20,
-                        'i_path' => '/toys/rainbowCircle.jpg',
+                        'i_path' => '/Toys/rainbowCircle.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['crain.jpg','duckWater1.jpg','helicopter.jpg','kitchen3.jpg','puzzle.jpg','tabletTen.jpg']
@@ -1713,7 +1723,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => '10 Inch Tablet',
                         'price' => 1300,
                         'qty' => 20,
-                        'i_path' => '/toys/tabletTen.jpg',
+                        'i_path' => '/Toys/tabletTen.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['crain.jpg','duckWater1.jpg','helicopter.jpg','kitchen3.jpg','puzzle.jpg','tabletTen.jpg']
@@ -1722,7 +1732,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Teether Rattle',
                         'price' => 100,
                         'qty' => 20,
-                        'i_path' => '/toys/teetherRattle.jpg',
+                        'i_path' => '/Toys/teetherRattle.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['crain.jpg','duckWater1.jpg','helicopter.jpg','kitchen3.jpg','puzzle.jpg','tabletTen.jpg']
@@ -1731,16 +1741,15 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Train',
                         'price' => 2500,
                         'qty' => 20,
-                        'i_path' => '/toys/train4.jpg',
+                        'i_path' => '/Toys/train4.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['crain.jpg','duckWater1.jpg','helicopter.jpg','kitchen3.jpg','puzzle.jpg','tabletTen.jpg']
                     ],
-                    [
-                        'pname' => 'Wooden ABC',
+                    [   'pname' => 'Wooden ABC',
                         'price' => 900,
                         'qty' => 20,
-                        'i_path' => '/toys/woodenabc.jpg',
+                        'i_path' => '/Toys/woodenabc.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['crain.jpg','duckWater1.jpg','helicopter.jpg','kitchen3.jpg','puzzle.jpg','tabletTen.jpg']
@@ -1751,13 +1760,13 @@ class DatabaseSeeder extends Seeder
 
             [
                 'cname' => 'Uniform',
-                'dept'  => '2', // Example department
+                'dept'  => '1', // Example department
                 'products' => [
                     [
                         'pname' => 'Uniform 1',
                         'price' => 2100,
                         'qty' => 20,
-                        'i_path' => '/uniform/1.jpg',
+                        'i_path' => '/Uniform/1.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1766,7 +1775,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Uniform 2',
                         'price' => 2150,
                         'qty' => 20,
-                        'i_path' => '/uniform/2.jpg',
+                        'i_path' => '/Uniform/2.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1775,7 +1784,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Uniform 3',
                         'price' => 2170,
                         'qty' => 20,
-                        'i_path' => '/uniform/3.jpg',
+                        'i_path' => '/Uniform/3.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1784,7 +1793,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Uniform 4',
                         'price' => 2200,
                         'qty' => 20,
-                        'i_path' => '/uniform/4.jpg',
+                        'i_path' => '/Uniform/4.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1793,7 +1802,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Uniform 5',
                         'price' => 2650,
                         'qty' => 20,
-                        'i_path' => '/uniform/5.jpg',
+                        'i_path' => '/Uniform/5.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1802,7 +1811,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Uniform 6',
                         'price' => 2750,
                         'qty' => 20,
-                        'i_path' => '/uniform/6.jpg',
+                        'i_path' => '/Uniform/6.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1811,7 +1820,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Uniform 7',
                         'price' => 2800,
                         'qty' => 20,
-                        'i_path' => '/uniform/7.jpg',
+                        'i_path' => '/Uniform/7.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1820,7 +1829,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Uniform 8',
                         'price' => 2999,
                         'qty' => 20,
-                        'i_path' => '/uniform/8.jpg',
+                        'i_path' => '/Uniform/8.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
@@ -1830,13 +1839,13 @@ class DatabaseSeeder extends Seeder
 
             [
                 'cname' => 'Kids',
-                'dept'  => '2', // Example department
+                'dept'  => '4', // Example department
                 'products' => [
                     [
                         'pname' => 'Baby Zipper',
                         'price' => 1000,
                         'qty' => 20,
-                        'i_path' => '/kids/babyBed.jpg',
+                        'i_path' => '/Kids/babyBed.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['babyBed.jpg','bib.jpg','romper.jpg','carryBag.jpg']
@@ -1845,7 +1854,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Bib',
                         'price' => 1000,
                         'qty' => 20,
-                        'i_path' => '/kids/bib.jpg',
+                        'i_path' => '/Kids/bib.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['babyBed.jpg','bib.jpg','romper.jpg','carryBag.jpg']
@@ -1856,7 +1865,7 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Romper',
                         'price' => 1000,
                         'qty' => 20,
-                        'i_path' => '/kids/romper.jpg',
+                        'i_path' => '/Kids/romper.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['babyBed.jpg','bib.jpg','romper.jpg','carryBag.jpg']
@@ -1867,13 +1876,243 @@ class DatabaseSeeder extends Seeder
                         'pname' => 'Carry Bag',
                         'price' => 1000,
                         'qty' => 20,
-                        'i_path' => '/kids/carryBag.jpg',
+                        'i_path' => '/Kids/carryBag.jpg',
                         'featured' => 'false',
                         'description_id' => '',
                         'images' => ['babyBed.jpg','bib.jpg','romper.jpg','carryBag.jpg']
                     ],
                 ],
-            ]
+            ],
+            [
+                'cname' => 'Bed Sheet',
+                'dept'  => '2', // Example department
+                'products' => [
+                    [
+                        'pname' => 'Bed Sheet 1',
+                        'price' => 2100,
+                        'qty' => 20,
+                        'i_path' => '/Bed Sheet/1.jpg',
+                        'featured' => 'false',
+                        'description_id' => '',
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
+                    ],
+                    [
+                        'pname' => 'Bed Sheet 1',
+                        'price' => 2100,
+                        'qty' => 20,
+                        'i_path' => '/Bed Sheet/2.jpg',
+                        'featured' => 'false',
+                        'description_id' => '',
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
+                    ],
+                    [
+                        'pname' => 'Bed Sheet 1',
+                        'price' => 2100,
+                        'qty' => 20,
+                        'i_path' => '/Bed Sheet/3.jpg',
+                        'featured' => 'false',
+                        'description_id' => '',
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
+                    ],
+                    [
+                        'pname' => 'Bed Sheet 1',
+                        'price' => 2100,
+                        'qty' => 20,
+                        'i_path' => '/Bed Sheet/4.jpg',
+                        'featured' => 'false',
+                        'description_id' => '',
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
+                    ],
+                    [
+                        'pname' => 'Bed Sheet 1',
+                        'price' => 2100,
+                        'qty' => 20,
+                        'i_path' => '/Bed Sheet/5.jpg',
+                        'featured' => 'false',
+                        'description_id' => '',
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
+                    ],
+                    [
+                        'pname' => 'Bed Sheet 1',
+                        'price' => 2100,
+                        'qty' => 20,
+                        'i_path' => '/Bed Sheet/6.jpg',
+                        'featured' => 'false',
+                        'description_id' => '',
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
+                    ],
+                    [
+                        'pname' => 'Bed Sheet 1',
+                        'price' => 2100,
+                        'qty' => 20,
+                        'i_path' => '/Bed Sheet/7.jpg',
+                        'featured' => 'false',
+                        'description_id' => '',
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
+                    ],
+                    [
+                        'pname' => 'Bed Sheet 1',
+                        'price' => 2100,
+                        'qty' => 20,
+                        'i_path' => '/Bed Sheet/8.jpg',
+                        'featured' => 'false',
+                        'description_id' => '',
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
+                    ],
+                    
+                ],
+            ],
+            [
+                'cname' => 'Cushion',
+                'dept'  => '2', // Example department
+                'products' => [
+                    [
+                        'pname' => 'Cushion 1',
+                        'price' => 2100,
+                        'qty' => 20,
+                        'i_path' => '/Cushion/1.jpg',
+                        'featured' => 'false',
+                        'description_id' => '',
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
+                    ],
+                    [
+                        'pname' => 'Cushion 1',
+                        'price' => 2100,
+                        'qty' => 20,
+                        'i_path' => '/Cushion/2.jpg',
+                        'featured' => 'false',
+                        'description_id' => '',
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
+                    ],
+                    [
+                        'pname' => 'Cushion 1',
+                        'price' => 2100,
+                        'qty' => 20,
+                        'i_path' => '/Cushion/3.jpg',
+                        'featured' => 'false',
+                        'description_id' => '',
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
+                    ],
+                    [
+                        'pname' => 'Cushion 1',
+                        'price' => 2100,
+                        'qty' => 20,
+                        'i_path' => '/Cushion/4.jpg',
+                        'featured' => 'false',
+                        'description_id' => '',
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
+                    ],
+                    [
+                        'pname' => 'Cushion 1',
+                        'price' => 2100,
+                        'qty' => 20,
+                        'i_path' => '/Cushion/5.jpg',
+                        'featured' => 'false',
+                        'description_id' => '',
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
+                    ],
+                    [
+                        'pname' => 'Cushion 1',
+                        'price' => 2100,
+                        'qty' => 20,
+                        'i_path' => '/Cushion/6.jpg',
+                        'featured' => 'false',
+                        'description_id' => '',
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
+                    ],
+                    [
+                        'pname' => 'Cushion 1',
+                        'price' => 2100,
+                        'qty' => 20,
+                        'i_path' => '/Cushion/7.jpg',
+                        'featured' => 'false',
+                        'description_id' => '',
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
+                    ],
+                    [
+                        'pname' => 'Cushion 1',
+                        'price' => 2100,
+                        'qty' => 20,
+                        'i_path' => '/Cushion/8.jpg',
+                        'featured' => 'false',
+                        'description_id' => '',
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
+                    ],
+                    
+                ],
+            ],
+            [
+                'cname' => 'Sana Safina',
+                'dept'  => '5', // Example department
+                'products' => [
+                    [
+                        'pname' => 'Sana Safina 1',
+                        'price' => 2100,
+                        'qty' => 20,
+                        'i_path' => '/Sana Safina/1.jpg',
+                        'featured' => 'false',
+                        'description_id' => '',
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
+                    ],
+                    [
+                        'pname' => 'Sana Safina 1',
+                        'price' => 2100,
+                        'qty' => 20,
+                        'i_path' => '/Sana Safina/2.jpg',
+                        'featured' => 'false',
+                        'description_id' => '',
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
+                    ],
+                    [
+                        'pname' => 'Sana Safina 1',
+                        'price' => 2100,
+                        'qty' => 20,
+                        'i_path' => '/Sana Safina/3.jpg',
+                        'featured' => 'false',
+                        'description_id' => '',
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
+                    ],
+                    [
+                        'pname' => 'Sana Safina 1',
+                        'price' => 2100,
+                        'qty' => 20,
+                        'i_path' => '/Sana Safina/4.jpg',
+                        'featured' => 'false',
+                        'description_id' => '',
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
+                    ],
+                    [
+                        'pname' => 'Sana Safina 1',
+                        'price' => 2100,
+                        'qty' => 20,
+                        'i_path' => '/Sana Safina/5.jpg',
+                        'featured' => 'false',
+                        'description_id' => '',
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
+                    ],
+                    [
+                        'pname' => 'Sana Safina 1',
+                        'price' => 2100,
+                        'qty' => 20,
+                        'i_path' => '/Sana Safina/6.jpg',
+                        'featured' => 'false',
+                        'description_id' => '',
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
+                    ],
+                    [
+                        'pname' => 'Sana Safina 1',
+                        'price' => 2100,
+                        'qty' => 20,
+                        'i_path' => '/Sana Safina/7.jpg',
+                        'featured' => 'false',
+                        'description_id' => '',
+                        'images' => ['2.jpg','4.jpg','7.jpg','8.jpg','1.jpg','3.jpg']
+                    ],
+                    
+                    
+                    
+                ],
+            ],
             
         ];
 

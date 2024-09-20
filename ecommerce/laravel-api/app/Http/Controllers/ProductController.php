@@ -232,6 +232,7 @@ class ProductController extends Controller
         return $products;
     }
 
+
     public function shopMain(){
         $category = Category::all();
         

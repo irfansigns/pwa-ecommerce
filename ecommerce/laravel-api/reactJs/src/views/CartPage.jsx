@@ -22,16 +22,6 @@ const CartPage = () => {
     
     const navigate = useNavigate();
 
-    // toast.success('Order Placed Successfully!', {
-    //     position: "top-right",
-    //     autoClose: 5000,
-    //     hideProgressBar: false,
-    //     closeOnClick: true,
-    //     pauseOnHover: true,
-    //     draggable: true,
-    //     progress: undefined,
-    //     });
-
     function handleClose(){
       setLoginMod(loginMod => ({...loginMod,show:false}));
     }
@@ -44,7 +34,7 @@ const CartPage = () => {
     const submitHandler = (e) =>{
       
       e.preventDefault();
-            // alert("Order placed");
+            alert("Order placed");
       if(user || loginMod.gsname && loginMod.email && loginMod.gsaddress && loginMod.gscontact){
         // alert("USER IS LOGGED IN");
         placeOrder();
@@ -56,6 +46,7 @@ const CartPage = () => {
     }
 
     const placeOrder=()=>{
+        console.log("button pressedd");
       let data = {
         cartData: shoppingCart,
         guest: loginMod,
@@ -139,29 +130,7 @@ const CartPage = () => {
                     </td>
                 </tr>
 
-                // <tr key={key}>
-                //             <th className="pl-0 border-light" scope="row">
-                //               <div className="media align-items-center"><a className="reset-anchor d-block animsition-link" to="detail.html"><img src={AppURL.Images+prod.i_path} alt="..." width="70"/></a>
-                //                 <div className="media-body ml-3"><strong className="h6"><a className="reset-anchor animsition-link" to="detail.html">{prod.pname}</a></strong></div>
-                //               </div>
-                //             </th>
-                //             <td className="align-middle border-light">
-                //                   <p className="mb-0 small">${prod.price}</p>
-                //             </td>
-                //             <td className="align-middle border-light">
-                //               <div className="border d-flex align-items-center justify-content-between px-3"><span className="small text-uppercase text-gray headings-font-family">{prod.qty}</span>
-                //                 <div className="quantity">
-                //                   <Link className="dec-btn p-0" ><i onClick={() => dispatch({type: 'DEC', id: prod.id, products})} className="fas fa-caret-left"></i></Link>
-                //                   <input className="form-control form-control-sm border-0 shadow-0 p-0" type="text" defaultValue={prod.qty} />
-                //                   <Link className="inc-btn p-0" ><i onClick={() => dispatch({type: 'INC', id: prod.id, products})} className="fas fa-caret-right"></i></Link>
-                //                 </div>
-                //               </div>
-                //             </td>
-                //             <td className="align-middle border-light">
-                //               <p className="mb-0 small">{prod.price * prod.qty}</p>
-                //             </td>
-                //             <td className="align-middle border-light"><a className="reset-anchor" to="#"><i className="fas fa-trash-alt small text-muted"></i></a></td>
-                //             </tr>
+               
             )
         }) 
     }
@@ -311,17 +280,9 @@ const CartPage = () => {
                                             </div>
                                         </div>
 
-                                        <button type="button" className="btn btn-primary ml-1">Place Order</button>
+                                        <button type="submit" className="btn btn-primary ml-1">Place Order</button>
                                         {/* className="btn btn-lg my-4 checkout w-100"  */}
                                         </form>
-                                        {/* <ul className="list-inline social-icons d-inline-flex justify-content-center mb-3 w-100">
-                                            <li className="list-inline-item"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook"><i className="icon anm anm-facebook-f"></i></a></li>
-                                            <li className="list-inline-item"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter"><i className="icon anm anm-twitter"></i></a></li>
-                                            <li className="list-inline-item"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Pinterest"><i className="icon anm anm-pinterest-p"></i></a></li>
-                                            <li className="list-inline-item"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Linkedin"><i className="icon anm anm-linkedin-in"></i></a></li>
-                                            <li className="list-inline-item"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Instagram"><i className="icon anm anm-instagram"></i></a></li>
-                                            <li className="list-inline-item"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Youtube"><i className="icon anm anm-youtube"></i></a></li>
-                                        </ul> */}
                                         
                                     </div>
                                 </div>
