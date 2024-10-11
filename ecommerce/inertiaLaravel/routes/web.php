@@ -3,6 +3,8 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\ProductController;
 use Inertia\Inertia;
 
 Route::get('/', function () {
@@ -24,4 +26,8 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+Route::get('/admin',[AdminController::class,'index'])->name('admin');
+Route::get('/test{id}',[ProductController::class,'shopCategory'])->name('showCat');
+Route::get('/delProduct{id}', [AdminController::class,'delProduct'])->name('delProduct');
+Route::get('/product/watch/{product}', [AdminController::class, 'watch'])->name('product.watch');
 require __DIR__.'/auth.php';
