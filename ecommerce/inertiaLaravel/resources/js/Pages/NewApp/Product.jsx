@@ -1,14 +1,10 @@
 import React, {createContext , useReducer} from 'react';
-import {Inertia , InertiaLink} from '@inertiajs/inertia-react';
-import Navbar from '../Navbar';
-import Footer from '../Footer';
 import ProductForm from './ProductForm';
 
 const Product = (props) =>{
   return(
   
     <div className="page-holder"> 
-    <Navbar />
     <div className="container">
         <section className="py-5">
         <header>
@@ -32,7 +28,7 @@ const Product = (props) =>{
         
         
     </div>
-    <Footer />
+    
     </div> 
       
   )

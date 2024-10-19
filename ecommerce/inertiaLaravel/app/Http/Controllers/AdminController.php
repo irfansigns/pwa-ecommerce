@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-use Image;
+use Intervention\Image\Laravel\Facades\Image;
 use Inertia\Inertia;
 use App\Models\Pimage;
 use App\Models\Category;
@@ -12,6 +12,8 @@ use Illuminate\Http\Request;
 use App\Models\Product;
 use App\Models\Admin;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Validation\ValidationException;
+
 
 class AdminController extends Controller
 {
@@ -53,28 +55,36 @@ class AdminController extends Controller
     }
 
     public function storeProduct(Request $request){
-        $this->validate($request ,[
-            'name' => ['required'],
-            'quantity' => ['required' , 'integer'],
-            'price' => 'required|numeric|gt:4500',
-            'category' =>['required'],
-            'thumbnail' => ['image'],
-            'featured' => ['required']
-        ]);    
+        try {
+            $validated = $request->validate([
+                'name' => ['required'],
+                'quantity' => ['required' , 'integer'],
+                'price' => 'required|numeric|gt:4500',
+                'category' => ['required'],
+                'thumbnail' => ['image'],
+                'featured' => ['required']
+            ]);
+    
+            // If this point is reached, validation has passed
+            // dd('Validation passed!', $validated);
+            
+        } catch (ValidationException $e) {
+            // Handle the validation failure
+            dd('Validation failed!', $e->errors());
+        }
+
         $product = new Product();
 
-        if($request->hasFile('thumbnail')){
-            // $thumbnail = $request->thumbnail->store('img','public');  New Method
+        if($request->file('thumbnail')){
+            $name_gen = hexdec(uniqid()).'.'.$request->file('thumbnail')->getClientOriginalExtension();
             $allowedfileExtension=['pdf','jpg','png','jpeg'];
-            $mfile = $request->file('thumbnail');
-            $mfilename = $mfile->getClientOriginalName();
-            $mextension = $mfile->getClientOriginalExtension();
-            $check=in_array($mextension,$allowedfileExtension);
-
-            
-                $location = storage_path('app\\public\\img\\'.$mfilename);
-                Image::make($mfile)->save($location);
-            
+            // $mextension = $mfile->getClientOriginalExtension();
+            // $check=in_array($mextension,$allowedfileExtension);
+           
+            $fileName = $request->file('thumbnail')->getClientOriginalName();
+            $img = Image::read($request->file('thumbnail'));
+            $location = storage_path('app/public/img/' . $fileName);
+            $img->toJpeg(80)->save($location);
         }
 
         $product->pname = $request->name;
@@ -82,17 +92,26 @@ class AdminController extends Controller
         $product->price = $request->price;
         $product->category_id = $request->category;
         $product->featured = $request->featured;
-        $product->i_path = $mfilename;
+        $product->i_path = $fileName;
         
         $product->save();
 
+        // dd($request->IoFiles);
         if($request->IoFiles){
             $files = $request->IoFiles;
             foreach($files as $file){
                 $filename = $file->getClientOriginalName();
                 $extension = $file->getClientOriginalExtension();
-                $location = storage_path('app\\public\\img\\'.$filename);
-                Image::make($file)->save($location);
+                $location = storage_path('app/public/img/' . $filename);
+                // dd($file);
+                try {
+                    $img = Image::read($file);
+                    $img->save($location);
+                } catch (\Exception $e) {
+                    // Handle the exception, e.g., log the error or return a message
+                    dd('Image saving failed: ' . $e->getMessage());
+                }
+                
                 $check=in_array($extension,$allowedfileExtension);
                 if($check){
                     $pimage = new Pimage;
@@ -138,31 +157,52 @@ class AdminController extends Controller
 
     public function ProductUpdate(Request $request, $id)
     {
-        $this->validate($request ,[
-            'name' => ['required'],
-            'quantity' => ['required' , 'integer'],
-            // 'price' => 'required|numeric|gt:4500',
-            'price' => 'required|numeric|gt:4500',
-            'category' =>['required'],
+        
+        try {
+                $validated = $request->validate([
+                'name' => ['required'],
+                'quantity' => ['required' , 'integer'],
+                // 'price' => 'required|numeric|gt:4500',
+                'price' => 'required|numeric|gt:4500',
+                'category' =>['required'],
+            ]);
+    
+            // If this point is reached, validation has passed
+            // dd('Validation passed!', $validated);
             
+        } catch (ValidationException $e) {
+            // Handle the validation failure
+            dd('Validation failed!', $e->errors());
+        }
 
-            
-        ]);    
         $product = Product::find($id);
         
-        if($request->hasFile('thumbnail')){
-            // $thumbnail = $request->thumbnail->store('img','public');  New Method
-            $allowedfileExtension=['pdf','jpg','png'];
-            $mfile = $request->file('thumbnail');
-            $mfilename = $mfile->getClientOriginalName();
-            $mextension = $mfile->getClientOriginalExtension();
-            $check=in_array($mextension,$allowedfileExtension);
+        // if($request->hasFile('thumbnail')){
 
-            if($check){
-                $location = storage_path('app\\public\\img\\'.$mfilename);
-                Image::make($mfile)->save($location);
-            }
-            $product->i_path = $mfilename;
+        //     $allowedfileExtension=['pdf','jpg','png'];
+        //     $mfile = $request->file('thumbnail');
+        //     $mfilename = $mfile->getClientOriginalName();
+        //     $mextension = $mfile->getClientOriginalExtension();
+        //     $check=in_array($mextension,$allowedfileExtension);
+
+        //     if($check){
+        //         $location = storage_path('app\\public\\img\\'.$mfilename);
+        //         Image::make($mfile)->save($location);
+        //     }
+        //     $product->i_path = $mfilename;
+        // }
+
+
+        if($request->file('thumbnail')){
+            $name_gen = hexdec(uniqid()).'.'.$request->file('thumbnail')->getClientOriginalExtension();
+            $allowedfileExtension=['pdf','jpg','png','jpeg'];
+            // $mextension = $mfile->getClientOriginalExtension();
+            // $check=in_array($mextension,$allowedfileExtension);
+           
+            $fileName = $request->file('thumbnail')->getClientOriginalName();
+            $img = Image::read($request->file('thumbnail'));
+            $location = storage_path('app/public/img/' . $fileName);
+            $img->toJpeg(80)->save($location);
         }
         
         // Product::create([

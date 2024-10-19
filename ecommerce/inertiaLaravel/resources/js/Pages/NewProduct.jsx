@@ -1,5 +1,5 @@
 import React,{useState , useRef} from 'react';
-import {usePage} from '@inertiajs/react';
+import {usePage, router} from '@inertiajs/react';
 
 const NewProduct = (props) =>{
     const thumbnailRef = useRef(null);
@@ -18,27 +18,33 @@ const NewProduct = (props) =>{
     const aname = page.props.appName;
     // console.log(cat); Everytime i write something in Input field whole component rereders?
 
-    function handleSubmit(e){
-    e.preventDefault();
-    // console.log(values);
-    const formData = new FormData();
-    formData.append('name' , values.name);
-    formData.append('price' , values.price);
-    formData.append('quantity' , values.quantity);
-    formData.append('category' , values.category);
-    formData.append('featured' , values.featured);
-    formData.append('thumbnail' , thumbnailRef.current.files[0]);
-    //formData.append('detailImg' , detailImg.current.files);
-
-    for (let i = 0; i < detailImg.current.files.length; i++) {
-        formData.append('IoFiles[]', detailImg.current.files[i]);
+    function handleSubmit(e) {
+        e.preventDefault(); // Prevent form submission and page refresh
+        
+        // alert('Welcome');
+        // console.log(values);
+        // return false;
+        const formData = new FormData();
+        formData.append('name', values.name);
+        formData.append('price', values.price);
+        formData.append('quantity', values.quantity);
+        formData.append('category', values.category);
+        formData.append('featured', values.featured);
+        formData.append('thumbnail', thumbnailRef.current.files[0]);
+    
+        for (let i = 0; i < detailImg.current.files.length; i++) {
+            formData.append('IoFiles[]', detailImg.current.files[i]);
+        }
+    
+        router.post('/nproduct', formData)
+        
     }
-    Inertia.post('/nproduct',formData);
-    }
+    
 
     function handleChange(e){
         e.persist();
         setValues(values => ({...values,[e.target.id]: e.target.value}));
+        console.log(values);
     }
 
     function onChangeFeatured() {
@@ -50,7 +56,7 @@ const NewProduct = (props) =>{
         <div className="container mt-5">
             <div className="row">
                 <div className="col-md-12">
-                    <form onSubmit={handleSubmit} encType="multipart/form-data">
+                    <form onSubmit={handleSubmit}>
                         <div className="form-group">
                             <label htmlFor="name">Product Name</label>
                             <input type="text" value={values.name} className="form-control" id="name" aria-describedby="prodName" onChange={handleChange} />

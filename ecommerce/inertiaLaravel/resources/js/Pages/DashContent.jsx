@@ -47,21 +47,21 @@ const DashContent = (props) =>{
                 <div className="col-lg-2 col-md-2 d-md-block">
                   <div className="card bg-common card-left">
                     <nav className="nav flex-column">
-                      <a data-toggle="tab" className="nav-link" aria-current="page" href="#profile">
+                      <a data-bs-toggle="tab" className="nav-link" aria-current="page" href="#profile">
                         <i className="fas fa-user mr-2"></i>Profile</a>
-                      <a data-toggle="tab" className="nav-link" href="#setting">
+                      <a data-bs-toggle="tab" className="nav-link" href="#setting">
                         <i className="fas fa-user-cog mr-2"></i>Account Settings</a>
-                      <a data-toggle="tab" className="nav-link" href="#notification">
+                      <a data-bs-toggle="tab" className="nav-link" href="#notification">
                         <i className="fas fa-bell mr-2"></i>New Category</a>
-                      <a data-toggle="tab" className="nav-link" href="#security">
+                      <a data-bs-toggle="tab" className="nav-link" href="#security">
                         <i className="fas fa-user-shield mr-2"></i>Security</a>
-                      <a  data-toggle="tab" className="nav-link" href="#billing">
+                      <a  data-bs-toggle="tab" className="nav-link" href="#billing">
                         <i className="fas fa-money-check-alt mr-2"></i>New Product</a>
-                      <a onClick={resetProducts} data-toggle="tab" className="nav-link" href="#product">
+                      <a onClick={resetProducts} data-bs-toggle="tab" className="nav-link" href="#product">
                         <i className="fas fa-tshirt mr-2 active"></i>Products</a>
-                      <a data-toggle="tab" className="nav-link" href="#slider">
+                      <a data-bs-toggle="tab" className="nav-link" href="#slider">
                         <i className="fas fa-camera mr-2 active"></i>Slider Images</a>
-                      <a data-toggle="tab" className="nav-link" href="#siteData">
+                      <a data-bs-toggle="tab" className="nav-link" href="#siteData">
                         <i className="fas fa-list-alt mr-2 active"></i>Site Data</a>
                     </nav>
                   </div>
@@ -72,28 +72,28 @@ const DashContent = (props) =>{
                     <div className="card-header border-bottom mb-3">
                       <ul className="nav nav-tabs card-header-tabs nav-fill">
                         <li className="nav-item">
-                          <a data-toggle="tab" className="nav-link " aria-current="page" href="#profile">
+                          <a data-bs-toggle="tab" className="nav-link " aria-current="page" href="#profile">
                           <i className="fas fa-user mr-2"></i></a></li>
                         <li className="nav-item">
-                          <a data-toggle="tab" className="nav-link" aria-current="page" href="#setting">
+                          <a data-bs-toggle="tab" className="nav-link" aria-current="page" href="#setting">
                           <i className="fas fa-user-cog mr-2"></i></a></li>
                         <li className="nav-item">
-                          <a data-toggle="tab" className="nav-link" aria-current="page" href="#notification">
+                          <a data-bs-toggle="tab" className="nav-link" aria-current="page" href="#notification">
                           <i className="fas fa-bell mr-2"></i></a></li>
                         <li className="nav-item">
-                          <a data-toggle="tab" className="nav-link" aria-current="page" href="#security">
+                          <a data-bs-toggle="tab" className="nav-link" aria-current="page" href="#security">
                           <i className="fas fa-user-shield mr-2"></i></a></li>
                         <li className="nav-item">
-                          <a data-toggle="tab" className="nav-link" aria-current="page" href="#billing">
+                          <a data-bs-toggle="tab" className="nav-link" aria-current="page" href="#billing">
                           <i className="fas fa-money-check-alt mr-2"></i></a></li>
                         <li className="nav-item">
-                          <a data-toggle="tab" className="nav-link " aria-current="page" href="#product">
+                          <a data-bs-toggle="tab" className="nav-link " aria-current="page" href="#product">
                           <i className="fas fa-tshirt mr-2"></i></a></li>
                         <li className="nav-item">
-                          <a data-toggle="tab" className="nav-link " aria-current="page" href="#slider">
+                          <a data-bs-toggle="tab" className="nav-link " aria-current="page" href="#slider">
                           <i className="fas fa-camera mr-2"></i></a></li>
                         <li className="nav-item">
-                          <a data-toggle="tab" className="nav-link " aria-current="page" href="#siteData">
+                          <a data-bs-toggle="tab" className="nav-link " aria-current="page" href="#siteData">
                           <i className="fas fa-list-alt mr-2"></i></a></li>
                           
                           
@@ -171,13 +171,13 @@ const DashContent = (props) =>{
                       <div className="tab-pane" id="billing">
                         <h6>NEW PRODUCT</h6>
                         <hr />
-                        <form>
+                        
                           <div className="mb-3">
                             <label className="d-block">Product Entry</label>
                             <h4>ENTER NEW PRODUCT</h4>
                             <NewProduct />
                           </div>
-                        </form>
+                        
                       </div>
 
                       <div className="tab-pane active" id="product">
@@ -200,6 +200,7 @@ const DashContent = (props) =>{
                                     </div>
                                   </div>
                               </section>
+                              
                             </div>
                       </div>
 
